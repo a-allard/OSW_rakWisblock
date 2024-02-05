@@ -1,5 +1,1241 @@
-(kicad_sch (version 20231120) (generator "eeschema") (generator_version "8.0")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "2fe076e6-bb0e-436f-836d-ec5f0ee79cef")
+	(paper "A4")
+	(lib_symbols
+		(symbol "AllardConn:J10026"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -5.08 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "WisBlock"
+				(at 0.254 9.652 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "AllardConnFootPrints:TXGA_FBB04004-F40S1003K6M"
+				(at 62.992 7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://tupian.txga.com/serials-attach/FBB04004-F/FBB04004-F.pdf"
+				(at 47.498 17.526 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "WisBlock connetor for generic RAK WisBlock connection"
+				(at -64.77 11.938 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SUP1" "txga"
+				(at 59.436 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SUP1_PN" "FBB04004-F40S1003K6M"
+				(at 45.212 14.224 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SUP2" "LCSC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SUP2_PN" "C691131"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "TXGA"
+				(at 45.466 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "variant" "default"
+				(at 18.288 14.478 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "FBB04004-F40S1003K6M"
+				(at -47.498 13.716 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "manf#" "FBB04004-F40S1003K6M"
+				(at -54.61 8.382 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Temperature" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "wisblock small smt"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "J10026_0_0"
+				(rectangle
+					(start -8.89 8.89)
+					(end 8.89 -48.26)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -11.43 6.35 0)
+					(length 2.54)
+					(name "VBAT"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -3.81 180)
+					(length 2.54)
+					(name "SW1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -6.35 0)
+					(length 2.54)
+					(name "TXD0"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -6.35 180)
+					(length 2.54)
+					(name "RXD0"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -8.89 0)
+					(length 2.54)
+					(name "RESET"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -8.89 180)
+					(length 2.54)
+					(name "LED1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -11.43 0)
+					(length 2.54)
+					(name "LED2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -11.43 180)
+					(length 2.54)
+					(name "LED3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -13.97 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -13.97 180)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -16.51 0)
+					(length 2.54)
+					(name "I2C1_SDA"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 6.35 180)
+					(length 2.54)
+					(name "VBAT"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -16.51 180)
+					(length 2.54)
+					(name "I2C1_SCL"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -19.05 0)
+					(length 2.54)
+					(name "AIN0"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -19.05 180)
+					(length 2.54)
+					(name "AIN1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -21.59 0)
+					(length 2.54)
+					(name "BOOT"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -21.59 180)
+					(length 2.54)
+					(name "IO7"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -24.13 0)
+					(length 2.54)
+					(name "SPI_CS"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -24.13 180)
+					(length 2.54)
+					(name "SPI_CLK"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -26.67 0)
+					(length 2.54)
+					(name "SPI_MISO"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -26.67 180)
+					(length 2.54)
+					(name "SPI_MOSI"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -29.21 0)
+					(length 2.54)
+					(name "IO1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 3.81 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -29.21 180)
+					(length 2.54)
+					(name "IO2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -31.75 0)
+					(length 2.54)
+					(name "IO3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -31.75 180)
+					(length 2.54)
+					(name "IO4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -34.29 0)
+					(length 2.54)
+					(name "UART0_TX"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -34.29 180)
+					(length 2.54)
+					(name "UART0_RX"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -36.83 0)
+					(length 2.54)
+					(name "I2C0_SDA"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -36.83 180)
+					(length 2.54)
+					(name "I2C0_SCL"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -39.37 0)
+					(length 2.54)
+					(name "IO5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -39.37 180)
+					(length 2.54)
+					(name "IO6"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -41.91 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 3.81 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -41.91 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 1.27 0)
+					(length 2.54)
+					(name "3V3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 1.27 180)
+					(length 2.54)
+					(name "3V3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -1.27 0)
+					(length 2.54)
+					(name "USB+"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -1.27 180)
+					(length 2.54)
+					(name "USB-"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -3.81 0)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(symbol "J10026_1_0"
+				(pin passive line
+					(at -11.43 -46.99 0)
+					(length 2.54)
+					(name "FS3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -44.45 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "FS1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -44.45 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "FS2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -46.99 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "FS4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AllardConn:J10026")
+		(at 81.28 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0857033d-6657-4f3b-a2d4-ebb58b88f50a")
+		(property "Reference" "J1"
+			(at 81.28 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WisBlock"
+			(at 81.28 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AllardConnFootPrints:TXGA_FBB04004-F40S1003K6M"
+			(at 144.272 57.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://tupian.txga.com/serials-attach/FBB04004-F/FBB04004-F.pdf"
+			(at 128.778 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "WisBlock connetor for generic RAK WisBlock connection"
+			(at 16.51 52.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUP1" "txga"
+			(at 140.716 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUP1_PN" "FBB04004-F40S1003K6M"
+			(at 126.492 50.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUP2" "LCSC"
+			(at 81.28 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUP2_PN" "C691131"
+			(at 81.28 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TXGA"
+			(at 126.746 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "variant" "default"
+			(at 99.568 50.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FBB04004-F40S1003K6M"
+			(at 33.782 51.054 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "FBB04004-F40S1003K6M"
+			(at 26.67 56.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" ""
+			(at 81.28 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "29"
+			(uuid "dabbf831-be8c-454c-aea8-4f32105dd34a")
+		)
+		(pin "17"
+			(uuid "47948b74-a2bc-456e-929c-328b3b2f9990")
+		)
+		(pin "8"
+			(uuid "e08b394e-e095-4a96-91e3-008626ba6393")
+		)
+		(pin "1"
+			(uuid "1c93c628-16b6-443a-81b7-ca0b09585d72")
+		)
+		(pin "23"
+			(uuid "c97ec3c1-477d-4035-9af8-e22321d1dd82")
+		)
+		(pin "2"
+			(uuid "b41cfdb5-d4f8-4ec5-acdc-37fb491c3b41")
+		)
+		(pin "24"
+			(uuid "7b351712-798d-4941-8586-c79e73c21d70")
+		)
+		(pin "38"
+			(uuid "79e42aa9-d34b-434a-83f4-d90caf9eefe5")
+		)
+		(pin "40"
+			(uuid "e8ee23dd-275f-4e32-9e1c-fc066c833c46")
+		)
+		(pin "37"
+			(uuid "c60b3011-5445-4d1a-8ec7-ee640300d5d9")
+		)
+		(pin "32"
+			(uuid "5a06a279-9390-4ce1-970f-712481931fb9")
+		)
+		(pin "4"
+			(uuid "dd4869f5-ea06-4ca4-be0f-c14626215ffc")
+		)
+		(pin "3"
+			(uuid "7fa1e03a-02e4-41d8-8a9e-82c834db32a6")
+		)
+		(pin "39"
+			(uuid "afea2533-1923-4fe9-b0e5-a2bbd06fce05")
+		)
+		(pin "27"
+			(uuid "45f228e1-4595-4a3b-9a50-8cf566d3abf7")
+		)
+		(pin "6"
+			(uuid "6967fbba-9d71-4653-8be6-9ee8942f5865")
+		)
+		(pin "FS2"
+			(uuid "a38b9c42-9139-4377-b168-75e35b04cc2d")
+		)
+		(pin "5"
+			(uuid "56e45d6a-b685-406f-8df7-cfee43d9b1e4")
+		)
+		(pin "39"
+			(uuid "3a76f4be-3f75-48fa-8ff5-8f407586af1b")
+		)
+		(pin "7"
+			(uuid "265ce6ef-2551-4dc7-b0e7-6f01489c6885")
+		)
+		(pin "28"
+			(uuid "f9c829a9-beab-475e-bc40-7bc928cd5e8a")
+		)
+		(pin "19"
+			(uuid "70181a8e-be87-4b53-ba04-c7b8985a7880")
+		)
+		(pin "15"
+			(uuid "555b4eff-927d-4041-995c-13f9472e83a8")
+		)
+		(pin "14"
+			(uuid "8cb21f1e-596f-4df7-9d45-014fac14afc6")
+		)
+		(pin "13"
+			(uuid "b8ba48ea-40f7-46bc-b102-585cdd108e6d")
+		)
+		(pin "10"
+			(uuid "4cfc8620-e962-4858-9c81-c8b7c6b016ca")
+		)
+		(pin "12"
+			(uuid "84907215-c280-4c90-8015-a3064b98c766")
+		)
+		(pin "11"
+			(uuid "f16b8fed-26cf-4fa2-9083-544b9056e22d")
+		)
+		(pin "9"
+			(uuid "6c4ecd69-5d7d-48f3-aca1-c9157ed36b50")
+		)
+		(pin "20"
+			(uuid "f83ebf5d-e556-4966-8170-8867b2205cd6")
+		)
+		(pin "36"
+			(uuid "b41828dc-2654-4218-a326-7ab50da8f9ee")
+		)
+		(pin "34"
+			(uuid "53e1698a-f952-4fbd-a856-4699eeb9854d")
+		)
+		(pin "18"
+			(uuid "f3385402-c13a-4025-a11d-fc41b80ea6e8")
+		)
+		(pin "35"
+			(uuid "9d121dfd-285e-44af-adea-295d5c9048e7")
+		)
+		(pin "25"
+			(uuid "71a772dc-63e1-4665-b58f-5debc320dc96")
+		)
+		(pin "FS4"
+			(uuid "dcd1c738-8313-43c3-ab55-299065b0f11b")
+		)
+		(pin "22"
+			(uuid "0e75d5e1-b560-437c-b4fa-966d02786c6d")
+		)
+		(pin "33"
+			(uuid "69929d9a-54bc-4ebc-99f0-776ee26c5c17")
+		)
+		(pin "30"
+			(uuid "c0f927d6-a6dc-4d52-8cb1-9c71b84ba463")
+		)
+		(pin "31"
+			(uuid "4b5c5689-7646-4694-9e67-9ef185a56610")
+		)
+		(pin "21"
+			(uuid "15d770d9-a34a-4ad0-a188-25229096a18d")
+		)
+		(pin "26"
+			(uuid "c170e311-6fd5-4a01-8b20-3c1b86957f0c")
+		)
+		(pin "FS1"
+			(uuid "b7b56aa8-d396-4ba9-ac43-2f54ee1d5080")
+		)
+		(pin "16"
+			(uuid "04b28cbd-a430-45b9-ab89-66bf80ceba29")
+		)
+		(instances
+			(project "oswRAKwisBlock"
+				(path "/2fe076e6-bb0e-436f-836d-ec5f0ee79cef"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
