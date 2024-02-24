@@ -2627,6 +2627,558 @@
 				)
 			)
 		)
+		(symbol "AllardPassive:C47A74-10000"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "4.7u"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "AllardChip:CAPC200X125X145L45N"
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BZ71H475ME15-01.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "4.7uF 0805 X7R 20% Cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "GRM21BZ71H475ME15K"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "manf#" "GRM21BZ71H475ME15K"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "SUP1" "Digi-Key"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "SUP1_PN" "490-GRM21BZ71H475ME15KCT-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "AI_PN" "${SYMBOL_NAME}"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "SUP2" "Mouser"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "SUP2_PN" "81-GRM21BZ71H475ME5K"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "Voltage" "50V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "ESR" "X7R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "Temperature" "-55-125"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "20%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Murata Electronics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "variant" "default"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SUP3" "LCSC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SUP3_PN" "C3862703"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap 4.7uf x7r"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CAPC200X125X145L45*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C47A74-10000_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C47A74-10000_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "AllardPassive:L10A6X-10001"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10u"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "AllardChip:INDC400X400X120L120N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5407/SRN4012BTA_Series.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "10uH 2-SMD Bourns inductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "AI_PN" "${SYMBOL_NAME}"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "SRN4012BTA-100M"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "manf#" "SRN4012BTA-100M"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Bourns Inc."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "SUP1" "Digi-Key"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "SUP1_PN" "118-SRN4012BTA-100MCT-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "SUP2" "Mouser"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "SUP2_PN" "652-SRN4012BTA-100M"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "20%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "Current" "1.4A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "variant" "default"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SatCurr" "1A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Temperature" "-40-125"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DCR" "276mΩ"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "10uh ind 2-SMD VSW"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "INDC400X400X120L120*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L10A6X-10001_0_1"
+				(arc
+					(start 0 -2.54)
+					(mid 0.6323 -1.905)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 0.635)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 1.905)
+					(end 0 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L10A6X-10001_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "AllardPassive:R10020-10000"
 			(pin_numbers hide)
 			(pin_names
@@ -3455,6 +4007,328 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "AllardSemicon:D10010"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0.635 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MBR0540T1G"
+				(at -2.54 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "AllardSOD:SOD370X155X135L32X57N"
+				(at 1.905 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2174/MBR0580S1_R5.pdf"
+				(at 0.762 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "80V 500mA schottky diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SUP1" "DigiKey"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SUP1_PN" "MBR0580S1-7DICT-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SUP2" "Mouser"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SUP2_PN" "621-MBR0580S1-7"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "AI_PN" "${SYMBOL_NAME}"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Temperature" "-55-150"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Voltage" "80V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Current" "500mA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "MBR0580S1-7"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "manf#" "MBR0580S1-7"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Diodes Incorporated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SUP3" "LCSC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SUP3_PN" " C177047"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "variant" "default"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "schottky diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOD370X155X135L32X57*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D10010_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -1.27) (xy 0.635 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 0.635 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.905 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 1.27) (xy 1.905 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 1.27) (xy -0.635 -1.27) (xy 1.27 0) (xy -0.635 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D10010_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 3.81)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4461,10 +5335,28 @@
 		(uuid "2481f63a-822e-472f-864a-e709a00fafb0")
 	)
 	(junction
+		(at 148.59 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27b0318f-523c-4f00-a337-8b02f4a8fe38")
+	)
+	(junction
 		(at 128.27 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "34c719c1-1165-4d54-b899-843e5f9a83c1")
+	)
+	(junction
+		(at 133.35 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36df212c-a39a-4587-880c-210049fc4a20")
+	)
+	(junction
+		(at 121.92 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49941316-4a2e-4b2a-96fc-77593181672c")
 	)
 	(junction
 		(at 49.53 63.5)
@@ -4485,7 +5377,13 @@
 		(uuid "5a9e1efb-5040-449f-be03-d727ae4dff60")
 	)
 	(junction
-		(at 134.62 111.76)
+		(at 152.4 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6081be0c-0362-40d5-8d8f-37657e2bd84a")
+	)
+	(junction
+		(at 121.92 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "622f36d3-58a4-4d71-921d-6e8de7c0d904")
@@ -4495,6 +5393,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "676a8e75-5978-4a2a-9296-0d19fca180d0")
+	)
+	(junction
+		(at 152.4 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6fa8f3c2-d48d-42e5-975a-9fec9829ce1c")
 	)
 	(junction
 		(at 171.45 100.33)
@@ -4507,6 +5411,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76541363-d811-48e2-8b8e-76521cf185c6")
+	)
+	(junction
+		(at 165.1 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76d11eab-1166-4533-9a63-df2a269fcc81")
 	)
 	(junction
 		(at 105.41 26.67)
@@ -4551,13 +5461,13 @@
 		(uuid "b47963fa-754a-4f29-8c3a-a06c8b1f5afb")
 	)
 	(junction
-		(at 142.24 127)
+		(at 129.54 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bfe09621-8baa-40f7-be80-0b2fd920746a")
 	)
 	(junction
-		(at 146.05 127)
+		(at 133.35 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c917e65b-2d38-4575-b22c-69b209cd3fb0")
@@ -4575,16 +5485,28 @@
 		(uuid "dc067fec-c9da-4fc8-bd6c-9079bdd8dec9")
 	)
 	(junction
-		(at 167.64 134.62)
+		(at 114.3 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e777c14d-5222-43de-9d0d-8e937dfdb603")
+		(uuid "dedd2428-48e6-4f56-9221-edc5706a1f72")
+	)
+	(junction
+		(at 148.59 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6de7807-5f2f-40eb-b786-c99c0b6f82f3")
 	)
 	(junction
 		(at 128.27 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa024c15-2525-4eba-8f24-da7b515ac6b4")
+	)
+	(junction
+		(at 130.81 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa70bed5-b36d-43af-a83e-aa9d4a474844")
 	)
 	(no_connect
 		(at 199.39 72.39)
@@ -4638,16 +5560,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 134.62) (xy 167.64 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a2f1a9d-899d-412e-a37d-dd92c3cdd62e")
-	)
-	(wire
-		(pts
 			(xy 62.23 111.76) (xy 62.23 121.92)
 		)
 		(stroke
@@ -4668,7 +5580,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 102.87) (xy 156.21 127)
+			(xy 152.4 118.11) (xy 152.4 134.62)
 		)
 		(stroke
 			(width 0)
@@ -4715,6 +5627,16 @@
 			(type default)
 		)
 		(uuid "12f767d6-d209-4880-accb-e28c96c09e5f")
+	)
+	(wire
+		(pts
+			(xy 152.4 134.62) (xy 165.1 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1441b649-ae92-4c9d-b87e-efe066b4a577")
 	)
 	(wire
 		(pts
@@ -4778,6 +5700,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 83.82) (xy 148.59 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25929ff6-d4bb-4e3f-be3e-8a89dc7b5f13")
+	)
+	(wire
+		(pts
 			(xy 194.31 90.17) (xy 199.39 90.17)
 		)
 		(stroke
@@ -4788,7 +5720,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 123.19) (xy 134.62 127)
+			(xy 121.92 130.81) (xy 121.92 134.62)
 		)
 		(stroke
 			(width 0)
@@ -4805,6 +5737,16 @@
 			(type default)
 		)
 		(uuid "2fd08647-2cf1-481a-9f2e-54fff3f781d7")
+	)
+	(wire
+		(pts
+			(xy 114.3 104.14) (xy 114.3 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "312e80de-fdbb-4eee-8bec-9552d385d9c5")
 	)
 	(wire
 		(pts
@@ -4828,7 +5770,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 127) (xy 142.24 129.54)
+			(xy 129.54 134.62) (xy 129.54 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4868,6 +5810,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 104.14) (xy 135.89 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ac57be0-9821-46af-8641-e62b500b2cd6")
+	)
+	(wire
+		(pts
 			(xy 69.85 106.68) (xy 62.23 106.68)
 		)
 		(stroke
@@ -4888,7 +5840,27 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 134.62) (xy 165.1 134.62)
+			(xy 148.59 134.62) (xy 133.35 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "434c168b-885a-451b-a82c-1cdc5d845a85")
+	)
+	(wire
+		(pts
+			(xy 114.3 134.62) (xy 121.92 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "445b4a3f-2894-4f73-8e95-4479cd03eeea")
+	)
+	(wire
+		(pts
+			(xy 165.1 134.62) (xy 168.91 134.62)
 		)
 		(stroke
 			(width 0)
@@ -4948,13 +5920,23 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 134.62) (xy 167.64 134.62)
+			(xy 148.59 72.39) (xy 148.59 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "586226a9-220f-4e82-b586-4e59e2fa31fb")
+		(uuid "538c67b6-d362-42d5-ad08-252e62ce5780")
+	)
+	(wire
+		(pts
+			(xy 152.4 101.6) (xy 152.4 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "599b4808-1ee4-4828-bb11-ee99dd0b6903")
 	)
 	(wire
 		(pts
@@ -4965,6 +5947,16 @@
 			(type default)
 		)
 		(uuid "5a19c20d-cde6-469d-99bc-351c35b53e36")
+	)
+	(wire
+		(pts
+			(xy 148.59 95.25) (xy 148.59 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d7e0bf0-47e1-484b-939b-92d30aa297c8")
 	)
 	(wire
 		(pts
@@ -5038,7 +6030,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 116.84) (xy 146.05 127)
+			(xy 133.35 124.46) (xy 133.35 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5048,7 +6040,17 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 127) (xy 142.24 127)
+			(xy 120.65 104.14) (xy 114.3 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "686c3d8c-9326-49fe-98af-ba907cf2ee95")
+	)
+	(wire
+		(pts
+			(xy 121.92 134.62) (xy 129.54 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5148,6 +6150,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 90.17) (xy 130.81 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e820aac-94ea-465d-a8e4-1cec87a5005d")
+	)
+	(wire
+		(pts
 			(xy 168.91 107.95) (xy 199.39 107.95)
 		)
 		(stroke
@@ -5178,7 +6190,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 127) (xy 142.24 127)
+			(xy 133.35 134.62) (xy 129.54 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5188,7 +6200,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 127) (xy 146.05 127)
+			(xy 152.4 134.62) (xy 148.59 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5205,6 +6217,16 @@
 			(type default)
 		)
 		(uuid "96fbf43a-318d-4380-a6c2-f6813fa40191")
+	)
+	(wire
+		(pts
+			(xy 146.05 104.14) (xy 152.4 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d746ba8-bd14-41e3-9f53-9d7e7206252d")
 	)
 	(wire
 		(pts
@@ -5248,6 +6270,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 104.14) (xy 152.4 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa344736-5b21-4992-af1e-6e2a2014cd59")
+	)
+	(wire
+		(pts
 			(xy 113.03 57.15) (xy 113.03 59.69)
 		)
 		(stroke
@@ -5278,7 +6310,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 111.76) (xy 134.62 115.57)
+			(xy 121.92 119.38) (xy 121.92 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5295,6 +6327,36 @@
 			(type default)
 		)
 		(uuid "b7a1d150-8e9a-4931-998c-c854baed0e51")
+	)
+	(wire
+		(pts
+			(xy 130.81 83.82) (xy 148.59 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf7de6cb-40b0-44b7-a6c1-45a50b3833b6")
+	)
+	(wire
+		(pts
+			(xy 148.59 82.55) (xy 148.59 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4dc6257-13ab-4e33-b3fc-5acab12f773e")
+	)
+	(wire
+		(pts
+			(xy 130.81 97.79) (xy 130.81 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c535eec9-ea1d-41b9-b972-4efd12206ad1")
 	)
 	(wire
 		(pts
@@ -5345,6 +6407,16 @@
 			(type default)
 		)
 		(uuid "cf8fbe2f-1b8d-4cf9-bb96-456cfce8e0ef")
+	)
+	(wire
+		(pts
+			(xy 114.3 104.14) (xy 114.3 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfac9ae2-926f-4742-af90-356e711ec08c")
 	)
 	(wire
 		(pts
@@ -5408,6 +6480,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 104.14) (xy 133.35 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6af0901-4e19-419d-b550-db5373c85af4")
+	)
+	(wire
+		(pts
 			(xy 49.53 54.61) (xy 49.53 63.5)
 		)
 		(stroke
@@ -5448,7 +6530,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 111.76) (xy 138.43 111.76)
+			(xy 121.92 119.38) (xy 125.73 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5465,6 +6547,16 @@
 			(type default)
 		)
 		(uuid "e2312660-4887-4973-b2d3-4c94e14073a0")
+	)
+	(wire
+		(pts
+			(xy 128.27 104.14) (xy 130.81 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2443c1d-0a8c-44af-9ee1-bd3002779050")
 	)
 	(wire
 		(pts
@@ -5485,6 +6577,16 @@
 			(type default)
 		)
 		(uuid "e32c8a17-67a2-4bb7-a7b4-80d08890b90a")
+	)
+	(wire
+		(pts
+			(xy 130.81 104.14) (xy 133.35 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4348969-f9d0-4bb4-8a3c-244447d0ec6f")
 	)
 	(wire
 		(pts
@@ -5515,6 +6617,16 @@
 			(type default)
 		)
 		(uuid "e83ea97e-8f0c-4bab-b3bc-9754a28e306f")
+	)
+	(wire
+		(pts
+			(xy 114.3 113.03) (xy 114.3 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea6253ab-bbbb-4edb-ae2c-483cf5c9251a")
 	)
 	(wire
 		(pts
@@ -5578,7 +6690,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 111.76) (xy 134.62 111.76)
+			(xy 120.65 119.38) (xy 121.92 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5631,7 +6743,7 @@
 		(uuid "2f737856-7c07-4fe2-8767-b6489a4bc038")
 	)
 	(label "GDR"
-		(at 133.35 111.76 180)
+		(at 120.65 119.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5642,7 +6754,7 @@
 		(uuid "64ca0e04-e450-4776-a4d5-5b93d0b98118")
 	)
 	(label "PREVGH"
-		(at 156.21 95.25 0)
+		(at 152.4 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5718,6 +6830,17 @@
 		)
 		(uuid "c367bd64-357d-4a24-bad0-4a74cdeb90b1")
 	)
+	(label "PREVGL"
+		(at 148.59 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c5f6996e-ffa3-4817-b34e-b17886d82d23")
+	)
 	(label "PREVGH"
 		(at 195.58 115.57 180)
 		(fields_autoplaced yes)
@@ -5774,7 +6897,7 @@
 		(uuid "f0015df8-722f-4bda-9da7-4d2f8ede3e02")
 	)
 	(label "~{RESET}"
-		(at 146.05 121.92 0)
+		(at 133.35 129.54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5812,7 +6935,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AllardChip:RESC40X20X15L10N"
+		(property "Footprint" "AllardChip:RESC40X20X15L10L"
 			(at 103.886 35.814 90)
 			(effects
 				(font
@@ -6249,7 +7372,7 @@
 	)
 	(symbol
 		(lib_id "AllardSemicon:Q10007")
-		(at 146.05 116.84 0)
+		(at 133.35 124.46 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6258,7 +7381,7 @@
 		(dnp no)
 		(uuid "0f8d5754-965e-454a-820c-ed2c13cafb76")
 		(property "Reference" "Q1"
-			(at 151.13 111.7599 0)
+			(at 138.43 119.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6267,7 +7390,7 @@
 			)
 		)
 		(property "Value" "SI1308EDL-T1-GE3"
-			(at 149.86 102.87 0)
+			(at 137.16 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6276,8 +7399,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "AllardSOT:SOT23-3P65_210X110L20X32N"
-			(at 146.05 116.84 0)
+		(property "Footprint" "AllardSOT:SOT23-3P65_210X110L20X32L"
+			(at 133.35 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6286,7 +7409,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/63399/si1308edl.pdf"
-			(at 146.05 116.84 0)
+			(at 133.35 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6295,7 +7418,7 @@
 			)
 		)
 		(property "Description" "MOSFET, N-Channel L 30V 1.4A SOT-23-3"
-			(at 146.05 116.84 0)
+			(at 133.35 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6304,7 +7427,7 @@
 			)
 		)
 		(property "SUP1" "DigiKey"
-			(at 148.59 97.79 0)
+			(at 135.89 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6314,7 +7437,7 @@
 			)
 		)
 		(property "Current" "1.4A"
-			(at 148.59 100.33 0)
+			(at 135.89 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6324,7 +7447,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay Siliconix"
-			(at 149.86 95.25 0)
+			(at 137.16 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6334,7 +7457,7 @@
 			)
 		)
 		(property "MPN" "SI1308EDL-T1-GE3"
-			(at 149.606 106.172 0)
+			(at 136.906 113.792 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6344,7 +7467,7 @@
 			)
 		)
 		(property "Temperature" "-55°C ~ 150°C (TJ)"
-			(at 138.43 100.33 0)
+			(at 125.73 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6354,7 +7477,7 @@
 			)
 		)
 		(property "SUP1_PN" "SI1308EDL-T1-GE3CT-ND"
-			(at 149.86 92.71 0)
+			(at 137.16 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6364,7 +7487,7 @@
 			)
 		)
 		(property "Voltage" "30V"
-			(at 149.606 106.172 0)
+			(at 136.906 113.792 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6374,7 +7497,7 @@
 			)
 		)
 		(property "manf#" "SI1308EDL-T1-GE3"
-			(at 146.05 116.84 0)
+			(at 133.35 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6383,7 +7506,7 @@
 			)
 		)
 		(property "SUP2" "Mouser"
-			(at 146.05 116.84 0)
+			(at 133.35 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6392,7 +7515,7 @@
 			)
 		)
 		(property "SUP2_PN" "78-SI1308EDL-T1-GE3"
-			(at 146.05 116.84 0)
+			(at 133.35 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6787,6 +7910,211 @@
 		)
 	)
 	(symbol
+		(lib_id "AllardPassive:C47A74-10000")
+		(at 130.81 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2905c7f3-4d08-4383-b14c-fec4c34c546c")
+		(property "Reference" "C9"
+			(at 134.62 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7u"
+			(at 134.62 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "AllardChip:CAPC200X125X145L45L"
+			(at 131.826 94.234 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BZ71H475ME15-01.pdf"
+			(at 130.81 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.7uF 0805 X7R 20% Cap"
+			(at 130.81 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM21BZ71H475ME15K"
+			(at 130.81 93.98 0)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "GRM21BZ71H475ME15K"
+			(at 130.81 93.98 0)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUP1" "Digi-Key"
+			(at 130.81 93.98 0)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUP1_PN" "490-GRM21BZ71H475ME15KCT-ND"
+			(at 130.81 93.98 0)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(hide yes)
+			)
+		)
+		(property "AI_PN" "${SYMBOL_NAME}"
+			(at 130.81 93.98 0)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUP2" "Mouser"
+			(at 130.81 93.98 0)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUP2_PN" "81-GRM21BZ71H475ME5K"
+			(at 130.81 93.98 0)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 130.81 93.98 0)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(hide yes)
+			)
+		)
+		(property "ESR" "X7R"
+			(at 130.81 93.98 0)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "-55-125"
+			(at 130.81 93.98 0)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 130.81 93.98 0)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 130.81 93.98 0)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(hide yes)
+			)
+		)
+		(property "variant" "default"
+			(at 130.81 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUP3" "LCSC"
+			(at 130.81 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUP3_PN" "C3862703"
+			(at 130.81 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0282d1cd-5220-4274-a7b6-8b5bbb40b03a")
+		)
+		(pin "1"
+			(uuid "850e71f9-ca8f-481d-a82f-fe8d7b86ef11")
+		)
+		(instances
+			(project "oswRAKwisBlock"
+				(path "/2fe076e6-bb0e-436f-836d-ec5f0ee79cef"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "AllardPassive:C10A72-10001")
 		(at 165.1 86.36 0)
 		(mirror y)
@@ -6814,7 +8142,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AllardChip:CAPC100X50X60L25N"
+		(property "Footprint" "AllardChip:CAPC100X50X60L25L"
 			(at 164.084 86.614 90)
 			(effects
 				(font
@@ -7280,35 +8608,43 @@
 		)
 	)
 	(symbol
-		(lib_id "AllardPassive:R10020-10000")
-		(at 134.62 119.38 0)
+		(lib_id "AllardSemicon:D10010")
+		(at 139.7 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5268b65c-72ec-49a4-9cc0-aff5ceaeab87")
-		(property "Reference" "R5"
-			(at 137.16 118.1099 0)
+		(uuid "4c162e7a-ea83-42c9-b8c6-0cad2a6dfab4")
+		(property "Reference" "D3"
+			(at 140.6525 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBR0540T1G"
+			(at 140.6525 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AllardSOD:SOD370X155X135L32X57L"
+			(at 141.605 100.965 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "10k"
-			(at 137.16 120.6499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "AllardChip:RESC40X20X15L10N"
-			(at 135.636 119.634 90)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2174/MBR0580S1_R5.pdf"
+			(at 140.462 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7316,8 +8652,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
-			(at 134.62 119.38 0)
+		(property "Description" "80V 500mA schottky diode"
+			(at 139.7 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7325,8 +8661,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10k 01005 0.03W 1% Res"
-			(at 134.62 119.38 0)
+		(property "SUP1" "DigiKey"
+			(at 139.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUP1_PN" "MBR0580S1-7DICT-ND"
+			(at 139.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUP2" "Mouser"
+			(at 139.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUP2_PN" "621-MBR0580S1-7"
+			(at 139.7 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7335,7 +8698,167 @@
 			)
 		)
 		(property "AI_PN" "${SYMBOL_NAME}"
-			(at 134.62 119.38 0)
+			(at 139.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "-55-150"
+			(at 139.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "80V"
+			(at 139.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current" "500mA"
+			(at 139.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MBR0580S1-7"
+			(at 139.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "MBR0580S1-7"
+			(at 139.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 139.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUP3" "LCSC"
+			(at 139.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUP3_PN" " C177047"
+			(at 139.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "variant" "default"
+			(at 139.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47708f78-0967-4ea4-9f86-189f368fed43")
+		)
+		(pin "2"
+			(uuid "22dad97b-64b8-4120-978a-6b6e8dcbbf02")
+		)
+		(instances
+			(project "oswRAKwisBlock"
+				(path "/2fe076e6-bb0e-436f-836d-ec5f0ee79cef"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AllardPassive:R10020-10000")
+		(at 121.92 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5268b65c-72ec-49a4-9cc0-aff5ceaeab87")
+		(property "Reference" "R5"
+			(at 124.46 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 124.46 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "AllardChip:RESC40X20X15L10L"
+			(at 122.936 127.254 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+			(at 121.92 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10k 01005 0.03W 1% Res"
+			(at 121.92 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AI_PN" "${SYMBOL_NAME}"
+			(at 121.92 127 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -7344,7 +8867,7 @@
 			)
 		)
 		(property "MPN" "ERJ-XGNF1002Y"
-			(at 134.62 119.38 0)
+			(at 121.92 127 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -7353,7 +8876,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic Electronics Components"
-			(at 134.62 119.38 0)
+			(at 121.92 127 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -7362,7 +8885,7 @@
 			)
 		)
 		(property "manf#" "ERJ-XGNF1002Y"
-			(at 134.62 119.38 0)
+			(at 121.92 127 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -7371,7 +8894,7 @@
 			)
 		)
 		(property "SUP1" "Digi-Key"
-			(at 134.62 119.38 0)
+			(at 121.92 127 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -7380,7 +8903,7 @@
 			)
 		)
 		(property "SUP1_PN" "10-ERJ-XGNF1002YCT-ND"
-			(at 134.62 119.38 0)
+			(at 121.92 127 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -7389,7 +8912,7 @@
 			)
 		)
 		(property "SUP2" "Mouser"
-			(at 134.62 119.38 0)
+			(at 121.92 127 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -7398,7 +8921,7 @@
 			)
 		)
 		(property "SUP2_PN" "667-ERJ-XGNF1002Y"
-			(at 134.62 119.38 0)
+			(at 121.92 127 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -7407,7 +8930,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 134.62 119.38 0)
+			(at 121.92 127 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -7416,7 +8939,7 @@
 			)
 		)
 		(property "Power" "0.03W"
-			(at 134.62 119.38 0)
+			(at 121.92 127 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -7425,7 +8948,7 @@
 			)
 		)
 		(property "Temperature" "-55-125"
-			(at 134.62 119.38 0)
+			(at 121.92 127 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -7434,7 +8957,7 @@
 			)
 		)
 		(property "variant" "default"
-			(at 134.62 119.38 0)
+			(at 121.92 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7443,7 +8966,7 @@
 			)
 		)
 		(property "TempCoef" "±200ppm/°C"
-			(at 134.62 119.38 0)
+			(at 121.92 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7494,7 +9017,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AllardChip:CAPC100X50X60L25N"
+		(property "Footprint" "AllardChip:CAPC100X50X60L25L"
 			(at 178.816 78.994 90)
 			(effects
 				(font
@@ -7639,10 +9162,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "3cd7a00b-74f2-42fc-a839-1c4803fc823a")
+			(uuid "3cd7a00b-74f2-42fc-a839-1c4803fc823b")
 		)
 		(pin "1"
-			(uuid "0789969d-cc50-43ae-a64b-6c78cc432476")
+			(uuid "0789969d-cc50-43ae-a64b-6c78cc432477")
 		)
 		(instances
 			(project "oswRAKwisBlock"
@@ -7679,7 +9202,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AllardSOT:SOT23-5P95_270X145L35X35N"
+		(property "Footprint" "AllardSOT:SOT23-5P95_270X145L35X35L"
 			(at 80.01 158.75 0)
 			(effects
 				(font
@@ -7915,7 +9438,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AllardChip:CAPC100X50X60L25N"
+		(property "Footprint" "AllardChip:CAPC100X50X60L25L"
 			(at 194.056 127.254 90)
 			(effects
 				(font
@@ -8060,10 +9583,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "3cd7a00b-74f2-42fc-a839-1c4803fc823a")
+			(uuid "3cd7a00b-74f2-42fc-a839-1c4803fc823c")
 		)
 		(pin "1"
-			(uuid "0789969d-cc50-43ae-a64b-6c78cc432476")
+			(uuid "0789969d-cc50-43ae-a64b-6c78cc432478")
 		)
 		(instances
 			(project "oswRAKwisBlock"
@@ -8141,6 +9664,200 @@
 		)
 	)
 	(symbol
+		(lib_id "AllardPassive:L10A6X-10001")
+		(at 124.46 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74502943-c2b0-4c86-8e0d-67bd64f3af15")
+		(property "Reference" "L2"
+			(at 124.46 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10u"
+			(at 124.46 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AllardChip:INDC400X400X120L120L"
+			(at 124.46 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5407/SRN4012BTA_Series.pdf"
+			(at 124.46 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10uH 2-SMD Bourns inductor"
+			(at 124.46 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AI_PN" "${SYMBOL_NAME}"
+			(at 124.46 104.14 0)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SRN4012BTA-100M"
+			(at 124.46 104.14 0)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "SRN4012BTA-100M"
+			(at 124.46 104.14 0)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns Inc."
+			(at 124.46 104.14 0)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUP1" "Digi-Key"
+			(at 124.46 104.14 0)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUP1_PN" "118-SRN4012BTA-100MCT-ND"
+			(at 124.46 104.14 0)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUP2" "Mouser"
+			(at 124.46 104.14 0)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUP2_PN" "652-SRN4012BTA-100M"
+			(at 124.46 104.14 0)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 124.46 104.14 0)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current" "1.4A"
+			(at 124.46 104.14 0)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(hide yes)
+			)
+		)
+		(property "variant" "default"
+			(at 124.46 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SatCurr" "1A"
+			(at 124.46 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "-40-125"
+			(at 124.46 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" "276mΩ"
+			(at 124.46 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4cd7a06d-50cf-48b4-80e9-8c1af5f4ef8d")
+		)
+		(pin "1"
+			(uuid "f22d408a-54cb-46b5-85d9-d6b854b7c20a")
+		)
+		(instances
+			(project "oswRAKwisBlock"
+				(path "/2fe076e6-bb0e-436f-836d-ec5f0ee79cef"
+					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "AllardPassive:C10A72-10001")
 		(at 168.91 111.76 0)
 		(unit 1)
@@ -8168,7 +9885,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AllardChip:CAPC100X50X60L25N"
+		(property "Footprint" "AllardChip:CAPC100X50X60L25L"
 			(at 169.926 112.014 90)
 			(effects
 				(font
@@ -8313,10 +10030,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "3cd7a00b-74f2-42fc-a839-1c4803fc823a")
+			(uuid "3cd7a00b-74f2-42fc-a839-1c4803fc823d")
 		)
 		(pin "1"
-			(uuid "0789969d-cc50-43ae-a64b-6c78cc432476")
+			(uuid "0789969d-cc50-43ae-a64b-6c78cc432479")
 		)
 		(instances
 			(project "oswRAKwisBlock"
@@ -8354,7 +10071,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AllardChip:CAPC100X50X60L25N"
+		(property "Footprint" "AllardChip:CAPC100X50X60L25L"
 			(at 185.166 122.174 90)
 			(effects
 				(font
@@ -8499,10 +10216,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "3cd7a00b-74f2-42fc-a839-1c4803fc823a")
+			(uuid "3cd7a00b-74f2-42fc-a839-1c4803fc823e")
 		)
 		(pin "1"
-			(uuid "0789969d-cc50-43ae-a64b-6c78cc432476")
+			(uuid "0789969d-cc50-43ae-a64b-6c78cc43247a")
 		)
 		(instances
 			(project "oswRAKwisBlock"
@@ -8541,7 +10258,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AllardChip:RESC40X20X15L10N"
+		(property "Footprint" "AllardChip:RESC40X20X15L10L"
 			(at 50.546 68.834 90)
 			(effects
 				(font
@@ -9119,6 +10836,202 @@
 		)
 	)
 	(symbol
+		(lib_id "AllardSemicon:D10010")
+		(at 148.59 76.2 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3877931-8105-404a-9f16-54e74dd3f93f")
+		(property "Reference" "D1"
+			(at 151.13 75.8824 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MBR0540T1G"
+			(at 134.112 75.692 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "AllardSOD:SOD370X155X135L32X57L"
+			(at 151.765 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2174/MBR0580S1_R5.pdf"
+			(at 148.59 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "80V 500mA schottky diode"
+			(at 148.59 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUP1" "DigiKey"
+			(at 148.59 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUP1_PN" "MBR0580S1-7DICT-ND"
+			(at 148.59 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUP2" "Mouser"
+			(at 148.59 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUP2_PN" "621-MBR0580S1-7"
+			(at 148.59 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AI_PN" "${SYMBOL_NAME}"
+			(at 148.59 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "-55-150"
+			(at 148.59 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "80V"
+			(at 148.59 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current" "500mA"
+			(at 148.59 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MBR0580S1-7"
+			(at 148.59 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "MBR0580S1-7"
+			(at 148.59 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 148.59 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUP3" "LCSC"
+			(at 148.59 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUP3_PN" " C177047"
+			(at 148.59 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "variant" "default"
+			(at 148.59 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64c39c39-3e5a-4ddd-b393-a36d582040c4")
+		)
+		(pin "2"
+			(uuid "e23cc398-85ca-44a8-aac7-fb0dd1445fe6")
+		)
+		(instances
+			(project "oswRAKwisBlock"
+				(path "/2fe076e6-bb0e-436f-836d-ec5f0ee79cef"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "AllardMountingHW:MP_genericHole")
 		(at 77.47 180.34 90)
 		(unit 1)
@@ -9186,6 +11099,202 @@
 		)
 	)
 	(symbol
+		(lib_id "AllardSemicon:D10010")
+		(at 148.59 88.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d4dad626-9780-4fc8-ac49-7e6d0d0ed09e")
+		(property "Reference" "D2"
+			(at 151.13 88.5824 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MBR0540T1G"
+			(at 133.604 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "AllardSOD:SOD370X155X135L32X57L"
+			(at 151.765 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2174/MBR0580S1_R5.pdf"
+			(at 148.59 89.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "80V 500mA schottky diode"
+			(at 148.59 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUP1" "DigiKey"
+			(at 148.59 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUP1_PN" "MBR0580S1-7DICT-ND"
+			(at 148.59 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUP2" "Mouser"
+			(at 148.59 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUP2_PN" "621-MBR0580S1-7"
+			(at 148.59 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AI_PN" "${SYMBOL_NAME}"
+			(at 148.59 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "-55-150"
+			(at 148.59 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "80V"
+			(at 148.59 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current" "500mA"
+			(at 148.59 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MBR0580S1-7"
+			(at 148.59 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "MBR0580S1-7"
+			(at 148.59 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 148.59 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUP3" "LCSC"
+			(at 148.59 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUP3_PN" " C177047"
+			(at 148.59 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "variant" "default"
+			(at 148.59 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45ebcfb8-e573-4dbd-b6c7-c27627a4129c")
+		)
+		(pin "2"
+			(uuid "0152d9ba-cca5-4350-ade5-716f8841f7a4")
+		)
+		(instances
+			(project "oswRAKwisBlock"
+				(path "/2fe076e6-bb0e-436f-836d-ec5f0ee79cef"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "AllardPassive:R10020-10000")
 		(at 109.22 52.07 0)
 		(unit 1)
@@ -9213,7 +11322,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AllardChip:RESC40X20X15L10N"
+		(property "Footprint" "AllardChip:RESC40X20X15L10L"
 			(at 110.236 52.324 90)
 			(effects
 				(font
@@ -9466,7 +11575,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AllardChip:CAPC100X50X60L25N"
+		(property "Footprint" "AllardChip:CAPC100X50X60L25L"
 			(at 177.546 117.094 90)
 			(effects
 				(font
@@ -9611,10 +11720,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "3cd7a00b-74f2-42fc-a839-1c4803fc823a")
+			(uuid "3cd7a00b-74f2-42fc-a839-1c4803fc823f")
 		)
 		(pin "1"
-			(uuid "0789969d-cc50-43ae-a64b-6c78cc432476")
+			(uuid "0789969d-cc50-43ae-a64b-6c78cc43247b")
 		)
 		(instances
 			(project "oswRAKwisBlock"
@@ -9626,17 +11735,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 142.24 129.54 0)
+		(lib_id "power:VDD")
+		(at 114.3 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e6e8eba6-7f8a-43d2-92aa-148f3fde6e39")
-		(property "Reference" "#PWR08"
-			(at 142.24 135.89 0)
+		(uuid "e2161e6e-3ab1-49cf-9c0b-11bad75c20be")
+		(property "Reference" "#PWR09"
+			(at 114.3 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9644,8 +11753,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 142.24 134.62 0)
+		(property "Value" "VDD"
+			(at 114.3 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9653,7 +11762,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 129.54 0)
+			(at 114.3 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9662,7 +11771,73 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 129.54 0)
+			(at 114.3 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 114.3 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8664086c-69bc-4fa2-bf07-f9eb01c13da2")
+		)
+		(instances
+			(project "oswRAKwisBlock"
+				(path "/2fe076e6-bb0e-436f-836d-ec5f0ee79cef"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 129.54 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6e8eba6-7f8a-43d2-92aa-148f3fde6e39")
+		(property "Reference" "#PWR08"
+			(at 129.54 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.54 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9671,7 +11846,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 129.54 0)
+			(at 129.54 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9692,74 +11867,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 167.64 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ea207d00-6598-4efd-b50d-ace3e1e33a53")
-		(property "Reference" "#PWR02"
-			(at 167.64 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 167.64 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7855fb68-fd47-4e6f-bb76-61e79f47a771")
-		)
-		(instances
-			(project "oswRAKwisBlock"
-				(path "/2fe076e6-bb0e-436f-836d-ec5f0ee79cef"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "AllardPassive:C10A72-10001")
-		(at 156.21 99.06 0)
+		(at 152.4 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9767,7 +11876,7 @@
 		(dnp no)
 		(uuid "ea47534d-0bbb-40e9-8a87-ac268ec92bcc")
 		(property "Reference" "C7"
-			(at 160.02 97.7899 0)
+			(at 156.21 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9776,7 +11885,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 160.02 100.3299 0)
+			(at 156.21 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9784,8 +11893,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AllardChip:CAPC100X50X60L25N"
-			(at 157.226 99.314 90)
+		(property "Footprint" "AllardChip:CAPC100X50X60L25L"
+			(at 153.416 114.554 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9794,7 +11903,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H105ME05-01A.pdf"
-			(at 156.21 99.06 0)
+			(at 152.4 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9803,7 +11912,7 @@
 			)
 		)
 		(property "Description" "1uF 0402 X5R 20% Cap"
-			(at 156.21 99.06 0)
+			(at 152.4 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9812,7 +11921,7 @@
 			)
 		)
 		(property "MPN" "GRM155R61H105ME05D"
-			(at 156.21 99.06 0)
+			(at 152.4 114.3 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -9821,7 +11930,7 @@
 			)
 		)
 		(property "manf#" "GRM155R61H105ME05D"
-			(at 156.21 99.06 0)
+			(at 152.4 114.3 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -9830,7 +11939,7 @@
 			)
 		)
 		(property "SUP1" "Digi-Key"
-			(at 156.21 99.06 0)
+			(at 152.4 114.3 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -9839,7 +11948,7 @@
 			)
 		)
 		(property "SUP1_PN" "490-GRM155R61H105ME05DCT-ND"
-			(at 156.21 99.06 0)
+			(at 152.4 114.3 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -9848,7 +11957,7 @@
 			)
 		)
 		(property "AI_PN" "${SYMBOL_NAME}"
-			(at 156.21 99.06 0)
+			(at 152.4 114.3 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -9857,7 +11966,7 @@
 			)
 		)
 		(property "SUP2" "Mouser"
-			(at 156.21 99.06 0)
+			(at 152.4 114.3 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -9866,7 +11975,7 @@
 			)
 		)
 		(property "SUP2_PN" "81-GRM155R61H105ME5D"
-			(at 156.21 99.06 0)
+			(at 152.4 114.3 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -9875,7 +11984,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 156.21 99.06 0)
+			(at 152.4 114.3 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -9884,7 +11993,7 @@
 			)
 		)
 		(property "ESR" "X5R"
-			(at 156.21 99.06 0)
+			(at 152.4 114.3 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -9893,7 +12002,7 @@
 			)
 		)
 		(property "Temperature" "-55-85"
-			(at 156.21 99.06 0)
+			(at 152.4 114.3 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -9902,7 +12011,7 @@
 			)
 		)
 		(property "Tolerance" "20%"
-			(at 156.21 99.06 0)
+			(at 152.4 114.3 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -9911,7 +12020,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 156.21 99.06 0)
+			(at 152.4 114.3 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -9920,7 +12029,7 @@
 			)
 		)
 		(property "variant" "default"
-			(at 156.21 99.06 0)
+			(at 152.4 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10011,6 +12120,211 @@
 		)
 	)
 	(symbol
+		(lib_id "AllardPassive:C47A74-10000")
+		(at 114.3 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7cdf041-ecdf-4a07-8f6b-e4a3d41c26c5")
+		(property "Reference" "C8"
+			(at 118.11 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7u"
+			(at 118.11 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "AllardChip:CAPC200X125X145L45L"
+			(at 115.316 109.474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BZ71H475ME15-01.pdf"
+			(at 114.3 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.7uF 0805 X7R 20% Cap"
+			(at 114.3 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM21BZ71H475ME15K"
+			(at 114.3 109.22 0)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "GRM21BZ71H475ME15K"
+			(at 114.3 109.22 0)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUP1" "Digi-Key"
+			(at 114.3 109.22 0)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUP1_PN" "490-GRM21BZ71H475ME15KCT-ND"
+			(at 114.3 109.22 0)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(hide yes)
+			)
+		)
+		(property "AI_PN" "${SYMBOL_NAME}"
+			(at 114.3 109.22 0)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUP2" "Mouser"
+			(at 114.3 109.22 0)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUP2_PN" "81-GRM21BZ71H475ME5K"
+			(at 114.3 109.22 0)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 114.3 109.22 0)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(hide yes)
+			)
+		)
+		(property "ESR" "X7R"
+			(at 114.3 109.22 0)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "-55-125"
+			(at 114.3 109.22 0)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 114.3 109.22 0)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 114.3 109.22 0)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(hide yes)
+			)
+		)
+		(property "variant" "default"
+			(at 114.3 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUP3" "LCSC"
+			(at 114.3 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUP3_PN" "C3862703"
+			(at 114.3 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c48d8507-78a4-4be5-b1ad-f619159c35a6")
+		)
+		(pin "1"
+			(uuid "9e01e26d-1898-48b2-8f52-c3087855a4e6")
+		)
+		(instances
+			(project "oswRAKwisBlock"
+				(path "/2fe076e6-bb0e-436f-836d-ec5f0ee79cef"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "AllardPassive:R10030-10000")
 		(at 219.71 69.85 0)
 		(unit 1)
@@ -10038,7 +12352,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AllardChip:RESC40X20X15L10N"
+		(property "Footprint" "AllardChip:RESC40X20X15L10L"
 			(at 220.726 70.104 90)
 			(effects
 				(font
