@@ -1,0 +1,100 @@
+(footprint "154_Epaper_Display"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -7.12 -6.81 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "bb9067ad-cc2d-4780-adfc-ca1a02b71aaa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "1.54 E-Paper Display"
+		(at -7.12 -7.81 0)
+		(layer "F.Fab")
+		(uuid "921fe553-f725-4dd2-a039-a6ebc63047cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d7a3f413-91ec-4bba-b399-5e5b161b7567")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "90e7f527-6a6e-4aba-ad95-037813b28019")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "360820c4-2a59-4f7e-94a8-436e6ad6be72")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_poly
+		(pts
+			(xy 15.94 18.25) (xy -15.86 18.25) (xy -15.86 -19.07) (xy 15.94 -19.07)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "9ad88658-e346-4ad6-a7bf-9a7384213eeb")
+	)
+	(model "${KIPRJMOD}/3D/Waveshare 1.54 E ink - Display Flush Folded.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+	(model "${KIPRJMOD}/3D/Display.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)
