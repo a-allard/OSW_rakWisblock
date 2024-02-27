@@ -2124,460 +2124,6 @@
 				)
 			)
 		)
-		(symbol "AllardConn:J10031"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -5.08 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "USB_B_Micro"
-				(at -5.08 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "AllardConnFootPrints:MOLEX_1051330011"
-				(at 3.302 -28.956 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/1051330011?display=pdf"
-				(at 3.556 -25.908 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "CONN RCPT USB2.0 MICRO B SMD"
-				(at 2.032 -32.004 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "manf#" "1051330011"
-				(at 1.27 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "1051330011"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.2446 1.2446)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "GCT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.2446 1.2446)
-					)
-					(hide yes)
-				)
-			)
-			(property "SUP1" "Digi-Key"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.2446 1.2446)
-					)
-					(hide yes)
-				)
-			)
-			(property "SUP1_PN" "WM10134CT-ND"
-				(at -25.146 -32.512 0)
-				(effects
-					(font
-						(size 1.2446 1.2446)
-					)
-					(hide yes)
-				)
-			)
-			(property "SUP2" "Mouser"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.2446 1.2446)
-					)
-					(hide yes)
-				)
-			)
-			(property "SUP2_PN" "538-105133-0011"
-				(at 33.782 -32.004 0)
-				(effects
-					(font
-						(size 1.2446 1.2446)
-					)
-					(hide yes)
-				)
-			)
-			(property "AI_PN" "${SYMBOL_NAME}"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.2446 1.2446)
-					)
-					(hide yes)
-				)
-			)
-			(property "variant" "default"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "SUP3" "LCSC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.2446 1.2446)
-					)
-					(hide yes)
-				)
-			)
-			(property "SUP3_PN" " C586226"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.2446 1.2446)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector USB micro vert"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "USB*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "J10031_0_1"
-				(rectangle
-					(start -5.08 -7.62)
-					(end 5.08 7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -3.81 2.159)
-					(radius 0.635)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center -0.635 3.429)
-					(radius 0.381)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -0.127 -7.62)
-					(end 0.127 -6.858)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 2.159) (xy 0.635 2.159)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 2.159) (xy -2.54 2.159) (xy -1.27 3.429) (xy -0.635 3.429)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.159) (xy -1.905 2.159) (xy -1.27 0.889) (xy 0 0.889)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 2.794) (xy 0.635 1.524) (xy 1.905 2.159) (xy 0.635 2.794)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.318 5.588) (xy -1.778 5.588) (xy -2.032 4.826) (xy -4.064 4.826) (xy -4.318 5.588)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.699 5.842) (xy -4.699 5.588) (xy -4.445 4.826) (xy -4.445 4.572) (xy -1.651 4.572) (xy -1.651 4.826)
-						(xy -1.397 5.588) (xy -1.397 5.842) (xy -4.699 5.842)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.254 1.27)
-					(end -0.508 0.508)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 5.08 -5.207)
-					(end 4.318 -4.953)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 -2.667)
-					(end 4.318 -2.413)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 -0.127)
-					(end 4.318 0.127)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 4.953)
-					(end 4.318 5.207)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "J10031_1_1"
-				(pin power_out line
-					(at 7.62 5.08 180)
-					(length 2.54)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "D-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "D+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -5.08 180)
-					(length 2.54)
-					(name "ID"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -10.16 90)
-					(length 2.54)
-					(name "Shield"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "AllardConn:J10032"
 			(pin_names
 				(offset 1.016)
@@ -2903,6 +2449,462 @@
 								(size 1 1)
 							)
 						)
+					)
+				)
+			)
+		)
+		(symbol "AllardConn:J10033"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -5.08 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "USB micro"
+				(at -5.08 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "AllardConnFootPrints:GCT_USB3190-GF-C"
+				(at 2.54 -21.336 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://gct.co/files/specs/usb3190-spec.pdf"
+				(at 2.286 -30.988 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "MICRO B SKT VERT MID MOUNT H=3.9"
+				(at 2.286 -30.988 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "USB3190-GF-C"
+				(at 2.286 -30.988 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "manf#" "USB3190-GF-C"
+				(at -8.128 -23.622 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SUP1" "DigiKey"
+				(at 6.604 -23.114 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SUP1_PN" "2073-USB3190-GF-CCT-ND"
+				(at 0.254 -22.352 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SUP2" "Mouser"
+				(at 2.54 -21.336 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SUP2_PN" "640-USB3190-GF-C"
+				(at 2.54 -21.336 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SUP3" "LCSC"
+				(at 2.286 -30.988 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SUP3_PN" "C7407277"
+				(at 2.54 -21.336 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Temperature" "-30°C ~ 85°C"
+				(at 2.54 -21.336 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "variant" "default"
+				(at 2.54 -21.336 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "GCT"
+				(at 2.286 -30.988 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "usb micro"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "J10033_0_0"
+				(rectangle
+					(start -3.81 11.43)
+					(end 10.16 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 12.7 8.89 180)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 3.81 180)
+					(length 2.54)
+					(name "D-"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 6.35 180)
+					(length 2.54)
+					(name "D+"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 1.27 180)
+					(length 2.54)
+					(name "ID"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 -3.81 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -7.62 90)
+					(length 2.54)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -7.62 90)
+					(length 2.54)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "S3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 90)
+					(length 2.54)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "S4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(symbol "J10033_0_1"
+				(polyline
+					(pts
+						(xy 1.905 6.35) (xy 4.445 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 6.35) (xy 1.27 6.35) (xy 2.54 7.62) (xy 3.175 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 6.35) (xy 1.905 6.35) (xy 2.54 5.08) (xy 3.81 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 6.985) (xy 4.445 5.715) (xy 5.715 6.35) (xy 4.445 6.985)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.651 9.906) (xy 4.191 9.906) (xy 3.937 9.144) (xy 1.905 9.144) (xy 1.651 9.906)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 10.16) (xy 1.27 9.906) (xy 1.524 9.144) (xy 1.524 8.89) (xy 4.318 8.89) (xy 4.318 9.144)
+						(xy 4.572 9.906) (xy 4.572 10.16) (xy 1.27 10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 6.35)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 3.175 7.62)
+					(radius 0.381)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 4.064 5.461)
+					(end 3.302 4.699)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 			)
@@ -6744,6 +6746,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 50.8) (xy 34.29 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35243089-411f-4e1a-9753-1717b95bbd40")
+	)
+	(wire
+		(pts
 			(xy 194.31 67.31) (xy 199.39 67.31)
 		)
 		(stroke
@@ -7014,16 +7026,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 50.8) (xy 34.29 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6332b589-7e8e-46b0-b5b0-c61f3a06fa4d")
-	)
-	(wire
-		(pts
 			(xy 168.91 115.57) (xy 168.91 134.62)
 		)
 		(stroke
@@ -7101,16 +7103,6 @@
 			(type default)
 		)
 		(uuid "70a5d205-fc82-4897-9320-70488a66b7ce")
-	)
-	(wire
-		(pts
-			(xy 31.75 46.99) (xy 31.75 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "755e2940-2781-4c03-947e-2c48696c0a5b")
 	)
 	(wire
 		(pts
@@ -7654,6 +7646,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 44.45) (xy 39.37 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7e75be4-0388-4654-afa1-6306afa3d6ba")
+	)
+	(wire
+		(pts
 			(xy 115.57 57.15) (xy 113.03 57.15)
 		)
 		(stroke
@@ -7940,7 +7942,7 @@
 		(uuid "91774de7-0d4e-4364-9cad-3502cfe1a0e1")
 	)
 	(label "USB_-"
-		(at 39.37 39.37 0)
+		(at 39.37 36.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8028,7 +8030,7 @@
 		(uuid "d34a2f03-bf60-4911-864c-e41310280732")
 	)
 	(label "USB_+"
-		(at 39.37 36.83 0)
+		(at 39.37 34.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11643,6 +11645,206 @@
 		)
 	)
 	(symbol
+		(lib_id "AllardConn:J10033")
+		(at 26.67 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e334a86-8f94-4604-9d3f-0a3946edee5a")
+		(property "Reference" "J5"
+			(at 29.845 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB micro"
+			(at 29.845 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AllardConnFootPrints:GCT_USB3190-GF-C"
+			(at 29.21 61.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://gct.co/files/specs/usb3190-spec.pdf"
+			(at 28.956 71.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MICRO B SKT VERT MID MOUNT H=3.9"
+			(at 28.956 71.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "USB3190-GF-C"
+			(at 28.956 71.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "manf#" "USB3190-GF-C"
+			(at 18.542 64.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SUP1" "DigiKey"
+			(at 33.274 63.754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SUP1_PN" "2073-USB3190-GF-CCT-ND"
+			(at 26.924 62.992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SUP2" "Mouser"
+			(at 29.21 61.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SUP2_PN" "640-USB3190-GF-C"
+			(at 29.21 61.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SUP3" "LCSC"
+			(at 28.956 71.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SUP3_PN" "C7407277"
+			(at 29.21 61.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "-30°C ~ 85°C"
+			(at 29.21 61.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "variant" "default"
+			(at 29.21 61.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "GCT"
+			(at 28.956 71.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "e03334ba-e05b-4457-bf81-5655b4dbe57c")
+		)
+		(pin "4"
+			(uuid "ac5eadd7-508e-4f36-8e51-78741566728e")
+		)
+		(pin "S1"
+			(uuid "60378489-59ea-43b0-870c-c9dc344867f2")
+		)
+		(pin "S4"
+			(uuid "9de9de56-53be-4d49-8a3c-7730a9e62326")
+		)
+		(pin "3"
+			(uuid "0713ce26-ce93-4771-aafe-61d6cdff9624")
+		)
+		(pin "S2"
+			(uuid "2cdc8420-fe04-4b56-9c01-379a204bb734")
+		)
+		(pin "S3"
+			(uuid "93dabca8-9f17-48fb-80ca-0bb9f460e884")
+		)
+		(pin "2"
+			(uuid "3fc7c08e-456b-4b3c-9100-ff025032a8f4")
+		)
+		(pin "1"
+			(uuid "99773c13-7760-4960-9745-d31e524a2588")
+		)
+		(instances
+			(project "oswRAKwisBlock"
+				(path "/2fe076e6-bb0e-436f-836d-ec5f0ee79cef"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "AllardPassive:C10A72-10001")
 		(at 184.15 121.92 0)
 		(unit 1)
@@ -12689,185 +12891,6 @@
 			(project "oswRAKwisBlock"
 				(path "/2fe076e6-bb0e-436f-836d-ec5f0ee79cef"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AllardConn:J10031")
-		(at 31.75 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c5c4c2d4-57f4-4a14-b116-e02cfc05b46a")
-		(property "Reference" "J3"
-			(at 31.75 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB_B_Micro"
-			(at 31.75 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "AllardConnFootPrints:MOLEX_1051330011"
-			(at 35.052 65.786 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/1051330011?display=pdf"
-			(at 35.306 62.738 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CONN RCPT USB2.0 MICRO B SMD"
-			(at 33.782 68.834 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "1051330011"
-			(at 33.02 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "1051330011"
-			(at 31.75 36.83 0)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "GCT"
-			(at 31.75 36.83 0)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUP1" "Digi-Key"
-			(at 31.75 36.83 0)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUP1_PN" "WM10134CT-ND"
-			(at 6.604 69.342 0)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUP2" "Mouser"
-			(at 31.75 36.83 0)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUP2_PN" "538-105133-0011"
-			(at 65.532 68.834 0)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(hide yes)
-			)
-		)
-		(property "AI_PN" "${SYMBOL_NAME}"
-			(at 31.75 36.83 0)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(hide yes)
-			)
-		)
-		(property "variant" "default"
-			(at 31.75 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUP3" "LCSC"
-			(at 31.75 36.83 0)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUP3_PN" " C586226"
-			(at 31.75 36.83 0)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "f27a3f06-521a-4ec5-9c5c-54bc23efac2b")
-		)
-		(pin "1"
-			(uuid "f005ea48-ef2c-4ff0-921b-9524e4c1893d")
-		)
-		(pin "3"
-			(uuid "72448f10-80f5-4fe3-a2b0-03a05f278a8b")
-		)
-		(pin "5"
-			(uuid "40367944-add3-468a-976e-252782efb60c")
-		)
-		(pin "6"
-			(uuid "e3404d81-416d-4345-b691-00972cd6a7e3")
-		)
-		(pin "2"
-			(uuid "e1a8d3c9-2d70-4549-807d-b7252710f34d")
-		)
-		(instances
-			(project "oswRAKwisBlock"
-				(path "/2fe076e6-bb0e-436f-836d-ec5f0ee79cef"
-					(reference "J3")
 					(unit 1)
 				)
 			)
