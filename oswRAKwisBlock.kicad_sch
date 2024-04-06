@@ -2876,10 +2876,10 @@
 			(symbol "C10A71-10000_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -1.016 -0.508) (xy 1.016 -0.508)
 					)
 					(stroke
-						(width 0.508)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -2888,10 +2888,10 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -1.016 0.508) (xy 1.016 0.508)
 					)
 					(stroke
-						(width 0.508)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -2901,8 +2901,8 @@
 			)
 			(symbol "C10A71-10000_1_1"
 				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
+					(at 0 2.54 270)
+					(length 2)
 					(name "~"
 						(effects
 							(font
@@ -2919,8 +2919,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
+					(at 0 -2.54 90)
+					(length 2)
 					(name "~"
 						(effects
 							(font
@@ -3127,10 +3127,10 @@
 			(symbol "C10A72-10000_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -1.016 -0.508) (xy 1.016 -0.508)
 					)
 					(stroke
-						(width 0.508)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -3139,10 +3139,10 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -1.016 0.508) (xy 1.016 0.508)
 					)
 					(stroke
-						(width 0.508)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -3152,8 +3152,8 @@
 			)
 			(symbol "C10A72-10000_1_1"
 				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
+					(at 0 2.54 270)
+					(length 2)
 					(name "~"
 						(effects
 							(font
@@ -3170,8 +3170,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
+					(at 0 -2.54 90)
+					(length 2)
 					(name "~"
 						(effects
 							(font
@@ -3378,10 +3378,10 @@
 			(symbol "C10A72-10001_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -1.016 -0.508) (xy 1.016 -0.508)
 					)
 					(stroke
-						(width 0.508)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -3390,10 +3390,10 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -1.016 0.508) (xy 1.016 0.508)
 					)
 					(stroke
-						(width 0.508)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -3403,8 +3403,8 @@
 			)
 			(symbol "C10A72-10001_1_1"
 				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
+					(at 0 2.54 270)
+					(length 2)
 					(name "~"
 						(effects
 							(font
@@ -3421,8 +3421,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
+					(at 0 -2.54 90)
+					(length 2)
 					(name "~"
 						(effects
 							(font
@@ -3647,10 +3647,10 @@
 			(symbol "C47A74-10000_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -1.016 -0.508) (xy 1.016 -0.508)
 					)
 					(stroke
-						(width 0.508)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -3659,10 +3659,10 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -1.016 0.508) (xy 1.016 0.508)
 					)
 					(stroke
-						(width 0.508)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -3672,8 +3672,8 @@
 			)
 			(symbol "C47A74-10000_1_1"
 				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
+					(at 0 2.54 270)
+					(length 2)
 					(name "~"
 						(effects
 							(font
@@ -3690,8 +3690,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
+					(at 0 -2.54 90)
+					(length 2)
 					(name "~"
 						(effects
 							(font
@@ -3905,9 +3905,9 @@
 			)
 			(symbol "L10A6X-10001_0_1"
 				(arc
-					(start 0 -2.54)
-					(mid 0.6323 -1.905)
-					(end 0 -1.27)
+					(start 0 -1.524)
+					(mid 0.381 -1.143)
+					(end 0 -0.762)
 					(stroke
 						(width 0)
 						(type default)
@@ -3917,8 +3917,8 @@
 					)
 				)
 				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -0.635)
+					(start 0 -0.762)
+					(mid 0.381 -0.381)
 					(end 0 0)
 					(stroke
 						(width 0)
@@ -3930,8 +3930,8 @@
 				)
 				(arc
 					(start 0 0)
-					(mid 0.6323 0.635)
-					(end 0 1.27)
+					(mid 0.381 0.381)
+					(end 0 0.762)
 					(stroke
 						(width 0)
 						(type default)
@@ -3941,9 +3941,9 @@
 					)
 				)
 				(arc
-					(start 0 1.27)
-					(mid 0.6323 1.905)
-					(end 0 2.54)
+					(start 0 0.762)
+					(mid 0.381 1.143)
+					(end 0 1.524)
 					(stroke
 						(width 0)
 						(type default)
@@ -3955,8 +3955,8 @@
 			)
 			(symbol "L10A6X-10001_1_1"
 				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
+					(at 0 2.54 270)
+					(length 1)
 					(name "1"
 						(effects
 							(font
@@ -3973,8 +3973,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
+					(at 0 -2.54 90)
+					(length 1)
 					(name "2"
 						(effects
 							(font
@@ -4181,7 +4181,7 @@
 			(symbol "R10020-10000_0_1"
 				(polyline
 					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
+						(xy 0 -0.508) (xy 0.508 -0.762) (xy 0 -1.016) (xy -0.508 -1.27) (xy 0 -1.524)
 					)
 					(stroke
 						(width 0)
@@ -4193,7 +4193,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.286) (xy 0 2.54)
+						(xy 0 0.508) (xy 0.508 0.254) (xy 0 0) (xy -0.508 -0.254) (xy 0 -0.508)
 					)
 					(stroke
 						(width 0)
@@ -4205,31 +4205,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+						(xy 0 1.524) (xy 0.508 1.27) (xy 0 1.016) (xy -0.508 0.762) (xy 0 0.508)
 					)
 					(stroke
 						(width 0)
@@ -4242,8 +4218,8 @@
 			)
 			(symbol "R10020-10000_1_1"
 				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
+					(at 0 2.54 270)
+					(length 1)
 					(name "~"
 						(effects
 							(font
@@ -4260,8 +4236,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
+					(at 0 -2.54 90)
+					(length 1)
 					(name "~"
 						(effects
 							(font
@@ -4468,7 +4444,7 @@
 			(symbol "R10030-10000_0_1"
 				(polyline
 					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
+						(xy 0 -0.508) (xy 0.508 -0.762) (xy 0 -1.016) (xy -0.508 -1.27) (xy 0 -1.524)
 					)
 					(stroke
 						(width 0)
@@ -4480,7 +4456,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.286) (xy 0 2.54)
+						(xy 0 0.508) (xy 0.508 0.254) (xy 0 0) (xy -0.508 -0.254) (xy 0 -0.508)
 					)
 					(stroke
 						(width 0)
@@ -4492,31 +4468,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+						(xy 0 1.524) (xy 0.508 1.27) (xy 0 1.016) (xy -0.508 0.762) (xy 0 0.508)
 					)
 					(stroke
 						(width 0)
@@ -4529,8 +4481,8 @@
 			)
 			(symbol "R10030-10000_1_1"
 				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
+					(at 0 2.54 270)
+					(length 1)
 					(name "~"
 						(effects
 							(font
@@ -4547,8 +4499,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
+					(at 0 -2.54 90)
+					(length 1)
 					(name "~"
 						(effects
 							(font
@@ -4735,91 +4687,91 @@
 			)
 			(symbol "U40001_1_1"
 				(pin power_in line
-					(at -11.43 5.08 0)
-					(length 3.81)
+					(at -10.16 5.08 0)
+					(length 2.54)
 					(name "VIN"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1 1)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1 1)
 							)
 						)
 					)
 				)
 				(pin power_in line
-					(at -11.43 -5.08 0)
-					(length 3.81)
+					(at -10.16 -5.08 0)
+					(length 2.54)
 					(name "GND"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1 1)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1 1)
 							)
 						)
 					)
 				)
 				(pin input line
-					(at -11.43 1.27 0)
-					(length 3.81)
+					(at -10.16 1.27 0)
+					(length 2.54)
 					(name "EN"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1 1)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1 1)
 							)
 						)
 					)
 				)
 				(pin free line
-					(at -11.43 -2.54 0)
-					(length 3.81)
+					(at -10.16 -2.54 0)
+					(length 2.54)
 					(name "NC"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1 1)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1 1)
 							)
 						)
 					)
 				)
 				(pin power_out line
-					(at 11.43 5.08 180)
-					(length 3.81)
+					(at 10.16 5.08 180)
+					(length 2.54)
 					(name "VOUT"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1 1)
 							)
 						)
 					)
 					(number "5"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1 1)
 							)
 						)
 					)
@@ -6166,6 +6118,759 @@
 				)
 			)
 		)
+		(symbol "C10A72-10000_1"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1u"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "AllardChip:CAPC100X50X60L25N"
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155Z71A105KE01-01A.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1uF 0402 X7R 20% Cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "GRM155Z71A105KE01J"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "manf#" "${MPN}"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "SUP1" "Digi-Key"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "SUP1_PN" "490-GRM155Z71A105KE01JCT-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "AI_PN" "${SYMBOL_NAME}"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "SUP2" "Mouser"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "SUP2_PN" "81-GRM155Z71A105KE1J"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "Voltage" "10V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "ESR" "X7R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "Temperature" "-55-125"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "10%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Murata Electronics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "variant" "default"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap 1uf x7r"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CAPC100X50X60L25*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C10A72-10000_1_0_1"
+				(polyline
+					(pts
+						(xy -1.016 -0.508) (xy 1.016 -0.508)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 0.508) (xy 1.016 0.508)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C10A72-10000_1_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "C10A72-10000_2"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1u"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "AllardChip:CAPC100X50X60L25N"
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155Z71A105KE01-01A.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1uF 0402 X7R 20% Cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "GRM155Z71A105KE01J"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "manf#" "${MPN}"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "SUP1" "Digi-Key"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "SUP1_PN" "490-GRM155Z71A105KE01JCT-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "AI_PN" "${SYMBOL_NAME}"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "SUP2" "Mouser"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "SUP2_PN" "81-GRM155Z71A105KE1J"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "Voltage" "10V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "ESR" "X7R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "Temperature" "-55-125"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "10%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Murata Electronics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "variant" "default"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap 1uf x7r"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CAPC100X50X60L25*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C10A72-10000_2_0_1"
+				(polyline
+					(pts
+						(xy -1.016 -0.508) (xy 1.016 -0.508)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 0.508) (xy 1.016 0.508)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C10A72-10000_2_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "C10A72-10000_3"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1u"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "AllardChip:CAPC100X50X60L25N"
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155Z71A105KE01-01A.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1uF 0402 X7R 20% Cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "GRM155Z71A105KE01J"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "manf#" "${MPN}"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "SUP1" "Digi-Key"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "SUP1_PN" "490-GRM155Z71A105KE01JCT-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "AI_PN" "${SYMBOL_NAME}"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "SUP2" "Mouser"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "SUP2_PN" "81-GRM155Z71A105KE1J"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "Voltage" "10V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "ESR" "X7R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "Temperature" "-55-125"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "10%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Murata Electronics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "variant" "default"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap 1uf x7r"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CAPC100X50X60L25*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C10A72-10000_3_0_1"
+				(polyline
+					(pts
+						(xy -1.016 -0.508) (xy 1.016 -0.508)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 0.508) (xy 1.016 0.508)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C10A72-10000_3_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -6244,6 +6949,795 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+		)
+		(symbol "R10020-10000_1"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10k"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "AllardChip:RESC40X20X15L10N"
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "10k 01005 0.03W 1% Res"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "AI_PN" "${SYMBOL_NAME}"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "ERJ-XGNF1002Y"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Panasonic Electronics Components"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "manf#" "ERJ-XGNF1002Y"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "SUP1" "Digi-Key"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "SUP1_PN" "10-ERJ-XGNF1002YCT-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "SUP2" "Mouser"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "SUP2_PN" "667-ERJ-XGNF1002Y"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "1%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "Power" "0.03W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "Temperature" "-55-125"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "variant" "default"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "TempCoef" "±200ppm/°C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "10k res 01005"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "RESC40X20X15L10*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R10020-10000_1_0_1"
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy 0.508 -0.762) (xy 0 -1.016) (xy -0.508 -1.27) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.508) (xy 0.508 0.254) (xy 0 0) (xy -0.508 -0.254) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 0.508 1.27) (xy 0 1.016) (xy -0.508 0.762) (xy 0 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R10020-10000_1_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "R10020-10000_2"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10k"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "AllardChip:RESC40X20X15L10N"
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "10k 01005 0.03W 1% Res"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "AI_PN" "${SYMBOL_NAME}"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "ERJ-XGNF1002Y"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Panasonic Electronics Components"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "manf#" "ERJ-XGNF1002Y"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "SUP1" "Digi-Key"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "SUP1_PN" "10-ERJ-XGNF1002YCT-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "SUP2" "Mouser"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "SUP2_PN" "667-ERJ-XGNF1002Y"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "1%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "Power" "0.03W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "Temperature" "-55-125"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "variant" "default"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "TempCoef" "±200ppm/°C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "10k res 01005"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "RESC40X20X15L10*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R10020-10000_2_0_1"
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy 0.508 -0.762) (xy 0 -1.016) (xy -0.508 -1.27) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.508) (xy 0.508 0.254) (xy 0 0) (xy -0.508 -0.254) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 0.508 1.27) (xy 0 1.016) (xy -0.508 0.762) (xy 0 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R10020-10000_2_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "R10020-10000_3"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10k"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "AllardChip:RESC40X20X15L10N"
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "10k 01005 0.03W 1% Res"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "AI_PN" "${SYMBOL_NAME}"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "ERJ-XGNF1002Y"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Panasonic Electronics Components"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "manf#" "ERJ-XGNF1002Y"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "SUP1" "Digi-Key"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "SUP1_PN" "10-ERJ-XGNF1002YCT-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "SUP2" "Mouser"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "SUP2_PN" "667-ERJ-XGNF1002Y"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "1%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "Power" "0.03W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "Temperature" "-55-125"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(hide yes)
+				)
+			)
+			(property "variant" "default"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "TempCoef" "±200ppm/°C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "10k res 01005"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "RESC40X20X15L10*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R10020-10000_3_0_1"
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy 0.508 -0.762) (xy 0 -1.016) (xy -0.508 -1.27) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.508) (xy 0.508 0.254) (xy 0 0) (xy -0.508 -0.254) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 0.508 1.27) (xy 0 1.016) (xy -0.508 0.762) (xy 0 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R10020-10000_3_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -6508,12 +8002,6 @@
 		(uuid "207b8eb5-fff8-494b-8393-dcd009a69b5b")
 	)
 	(junction
-		(at 91.44 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "218005bf-43b7-4d13-9050-214f436fdea3")
-	)
-	(junction
 		(at 38.1 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6538,16 +8026,10 @@
 		(uuid "36df212c-a39a-4587-880c-210049fc4a20")
 	)
 	(junction
-		(at 102.87 168.91)
+		(at 91.44 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3a45d468-aa29-465e-aa9d-493c0c3d08b9")
-	)
-	(junction
-		(at 68.58 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "488d5b70-a2a5-4123-9c4a-cd6d16889d04")
+		(uuid "3d755420-552a-4b18-a627-88831a8aeb00")
 	)
 	(junction
 		(at 176.53 63.5)
@@ -6562,10 +8044,10 @@
 		(uuid "49941316-4a2e-4b2a-96fc-77593181672c")
 	)
 	(junction
-		(at 74.93 168.91)
+		(at 90.17 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5171646d-0d32-430f-afac-4be6d7e57ae6")
+		(uuid "50e20d6c-683c-43ae-a49e-61c26ec28d68")
 	)
 	(junction
 		(at 101.6 128.27)
@@ -6604,6 +8086,12 @@
 		(uuid "6e8ad592-5577-41ee-a7c5-b9c40f7bfb13")
 	)
 	(junction
+		(at 102.87 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ea01693-2b55-4e44-a1d5-edc7a3bb5d80")
+	)
+	(junction
 		(at 157.48 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6614,6 +8102,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7097c32b-eda4-4dd1-9ec8-de5c71fbcc31")
+	)
+	(junction
+		(at 43.18 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73107554-7724-4953-b8ad-4165a703e535")
 	)
 	(junction
 		(at 176.53 102.87)
@@ -6628,22 +8122,16 @@
 		(uuid "76d11eab-1166-4533-9a63-df2a269fcc81")
 	)
 	(junction
-		(at 77.47 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7a110846-58c4-488b-be0c-aaaa18bf2bf1")
-	)
-	(junction
-		(at 62.23 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7dbbfcdf-8e90-45eb-9c8f-fea323173e30")
-	)
-	(junction
 		(at 91.44 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7dbcccdb-9583-49c4-b261-04aee01a128e")
+	)
+	(junction
+		(at 77.47 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81308f71-7af5-4543-8bac-a2a56a979bd3")
 	)
 	(junction
 		(at 170.18 107.95)
@@ -6688,6 +8176,12 @@
 		(uuid "a2fbac99-a830-4002-88e0-16ca020b7c86")
 	)
 	(junction
+		(at 133.35 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a683cbd7-a754-4196-a05b-b5fb6948f5e9")
+	)
+	(junction
 		(at 127 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6700,10 +8194,10 @@
 		(uuid "acbafcc8-09e3-41f2-87f0-35338110d452")
 	)
 	(junction
-		(at 182.88 85.09)
+		(at 128.27 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b47963fa-754a-4f29-8c3a-a06c8b1f5afb")
+		(uuid "b8a27294-1555-4749-93f5-97c873eabc38")
 	)
 	(junction
 		(at 38.1 128.27)
@@ -6716,6 +8210,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bfe09621-8baa-40f7-be80-0b2fd920746a")
+	)
+	(junction
+		(at 182.88 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c62291b7-a275-46a2-97dd-255fa585ff94")
+	)
+	(junction
+		(at 62.23 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8e6cdda-217e-4893-a1c8-fea91a030e81")
 	)
 	(junction
 		(at 138.43 137.16)
@@ -6766,16 +8272,16 @@
 		(uuid "f23d5400-02b7-43cc-977e-ee97252856c3")
 	)
 	(junction
-		(at 134.62 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f40be311-ea10-4e90-b1c2-298327d2a4b1")
-	)
-	(junction
 		(at 127 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa024c15-2525-4eba-8f24-da7b515ac6b4")
+	)
+	(junction
+		(at 66.04 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa1bff4d-f70e-485f-8204-c6236261e8d7")
 	)
 	(junction
 		(at 135.89 106.68)
@@ -6825,7 +8331,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 81.28) (xy 45.72 80.01)
+			(xy 45.72 83.82) (xy 45.72 80.01)
 		)
 		(stroke
 			(width 0)
@@ -6835,23 +8341,13 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 173.99) (xy 134.62 173.99)
+			(xy 182.88 83.82) (xy 182.88 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0798b9a1-b643-43c3-bc04-ebc3097e9bd2")
-	)
-	(wire
-		(pts
-			(xy 74.93 168.91) (xy 77.47 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08d2c247-ceac-4ef1-b40e-267af3242323")
+		(uuid "08665069-ca37-41ee-bdba-df76ef59502c")
 	)
 	(wire
 		(pts
@@ -6895,7 +8391,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 116.84) (xy 40.64 123.19)
+			(xy 40.64 113.03) (xy 40.64 123.19)
 		)
 		(stroke
 			(width 0)
@@ -6945,6 +8441,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 125.73) (xy 198.12 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "131271c9-8c70-4b1e-96d9-e8abcc209d88")
+	)
+	(wire
+		(pts
 			(xy 157.48 137.16) (xy 170.18 137.16)
 		)
 		(stroke
@@ -6955,7 +8461,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 33.02) (xy 101.6 27.94)
+			(xy 101.6 34.29) (xy 101.6 27.94)
 		)
 		(stroke
 			(width 0)
@@ -6975,17 +8481,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 168.91) (xy 91.44 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ab7bcd5-3d22-4c87-b7aa-ba78f9308abc")
-	)
-	(wire
-		(pts
-			(xy 214.63 68.58) (xy 214.63 63.5)
+			(xy 214.63 69.85) (xy 214.63 63.5)
 		)
 		(stroke
 			(width 0)
@@ -7005,23 +8501,13 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 57.15) (xy 97.79 60.96)
+			(xy 97.79 55.88) (xy 97.79 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1e88d3a2-bbf2-4eb0-b81c-4d2113fef0a9")
-	)
-	(wire
-		(pts
-			(xy 36.83 123.19) (xy 38.1 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e94be14-d524-4781-b7da-0364f28118e0")
 	)
 	(wire
 		(pts
@@ -7035,23 +8521,13 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 153.67) (xy 176.53 156.21)
+			(xy 165.1 153.67) (xy 165.1 156.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1f9488bf-704f-42f9-9993-761be27ca3fd")
-	)
-	(wire
-		(pts
-			(xy 45.72 90.17) (xy 57.15 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fc99946-6d6c-4797-a1ba-b1bae9ae29c9")
 	)
 	(wire
 		(pts
@@ -7065,7 +8541,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 144.78) (xy 68.58 147.32)
+			(xy 66.04 146.05) (xy 66.04 148.59)
 		)
 		(stroke
 			(width 0)
@@ -7125,17 +8601,17 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 147.32) (xy 77.47 148.59)
+			(xy 80.01 95.25) (xy 90.17 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2827a603-883d-486f-8ba0-c61ae3de9105")
+		(uuid "272ae696-c4c6-4404-b8b8-08b8a3170463")
 	)
 	(wire
 		(pts
-			(xy 74.93 168.91) (xy 74.93 170.18)
+			(xy 128.27 172.72) (xy 128.27 175.26)
 		)
 		(stroke
 			(width 0)
@@ -7145,7 +8621,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 133.35) (xy 127 137.16)
+			(xy 127 132.08) (xy 127 137.16)
 		)
 		(stroke
 			(width 0)
@@ -7155,7 +8631,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 77.47) (xy 36.83 77.47)
+			(xy 57.15 77.47) (xy 38.1 77.47)
 		)
 		(stroke
 			(width 0)
@@ -7175,7 +8651,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 168.91) (xy 62.23 167.64)
+			(xy 62.23 166.37) (xy 62.23 172.72)
 		)
 		(stroke
 			(width 0)
@@ -7195,7 +8671,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 106.68) (xy 119.38 107.95)
+			(xy 119.38 106.68) (xy 119.38 109.22)
 		)
 		(stroke
 			(width 0)
@@ -7245,7 +8721,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 49.53) (xy 97.79 27.94)
+			(xy 97.79 50.8) (xy 97.79 27.94)
 		)
 		(stroke
 			(width 0)
@@ -7255,7 +8731,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 163.83) (xy 35.56 168.91)
+			(xy 35.56 163.83) (xy 35.56 172.72)
 		)
 		(stroke
 			(width 0)
@@ -7285,7 +8761,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 153.67) (xy 134.62 156.21)
+			(xy 135.89 153.67) (xy 135.89 156.21)
 		)
 		(stroke
 			(width 0)
@@ -7385,16 +8861,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 147.32) (xy 77.47 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48fa8886-8d43-4a83-ada7-e625ac9be5e9")
-	)
-	(wire
-		(pts
 			(xy 181.61 123.19) (xy 181.61 137.16)
 		)
 		(stroke
@@ -7405,17 +8871,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 166.37) (xy 134.62 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b61ca30-cec2-4916-90d4-1c68d66e48eb")
-	)
-	(wire
-		(pts
-			(xy 91.44 166.37) (xy 91.44 168.91)
+			(xy 91.44 165.1) (xy 91.44 172.72)
 		)
 		(stroke
 			(width 0)
@@ -7445,6 +8901,26 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 172.72) (xy 102.87 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fc38dae-e444-4b6a-bfa2-a1382b068f56")
+	)
+	(wire
+		(pts
+			(xy 133.35 166.37) (xy 133.35 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53368c64-c367-4036-894c-982a06916641")
+	)
+	(wire
+		(pts
 			(xy 153.67 74.93) (xy 153.67 73.66)
 		)
 		(stroke
@@ -7452,6 +8928,16 @@
 			(type default)
 		)
 		(uuid "538c67b6-d362-42d5-ad08-252e62ce5780")
+	)
+	(wire
+		(pts
+			(xy 133.35 166.37) (xy 137.16 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5509c3f7-43db-4d01-9f6c-5b9cc590ca19")
 	)
 	(wire
 		(pts
@@ -7495,7 +8981,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 168.91) (xy 62.23 168.91)
+			(xy 35.56 172.72) (xy 62.23 172.72)
 		)
 		(stroke
 			(width 0)
@@ -7525,7 +9011,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 167.64) (xy 165.1 173.99)
+			(xy 165.1 166.37) (xy 165.1 172.72)
 		)
 		(stroke
 			(width 0)
@@ -7535,7 +9021,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 85.09) (xy 170.18 71.12)
+			(xy 170.18 87.63) (xy 170.18 71.12)
 		)
 		(stroke
 			(width 0)
@@ -7545,7 +9031,17 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 147.32) (xy 68.58 147.32)
+			(xy 189.23 120.65) (xy 189.23 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60707b0d-e16c-4fc0-a3b7-e38193b7b8fe")
+	)
+	(wire
+		(pts
+			(xy 62.23 148.59) (xy 66.04 148.59)
 		)
 		(stroke
 			(width 0)
@@ -7562,6 +9058,16 @@
 			(type default)
 		)
 		(uuid "6151b8bd-c441-4367-bbca-4e6031ccaf75")
+	)
+	(wire
+		(pts
+			(xy 90.17 95.25) (xy 90.17 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62717c3b-ec75-4a51-a81d-7e8a7ff1a149")
 	)
 	(wire
 		(pts
@@ -7625,7 +9131,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 106.68) (xy 119.38 106.68)
+			(xy 127 106.68) (xy 119.38 106.68)
 		)
 		(stroke
 			(width 0)
@@ -7635,13 +9141,23 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 158.75) (xy 62.23 160.02)
+			(xy 62.23 158.75) (xy 62.23 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "69dded1e-c394-4ded-af10-da200614cbda")
+	)
+	(wire
+		(pts
+			(xy 43.18 95.25) (xy 57.15 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ba59371-41f4-4e5d-8ee6-3e90fdb0896a")
 	)
 	(wire
 		(pts
@@ -7665,13 +9181,23 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 80.01) (xy 40.64 109.22)
+			(xy 40.64 80.01) (xy 40.64 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "79afd190-02aa-49fc-b600-710afb09b064")
+	)
+	(wire
+		(pts
+			(xy 66.04 148.59) (xy 77.47 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b59781d-2af0-4b02-8d97-18934582559b")
 	)
 	(wire
 		(pts
@@ -7705,16 +9231,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 168.91) (xy 77.47 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8075b3ec-cfc5-4d67-8c7d-a4a851734ade")
-	)
-	(wire
-		(pts
 			(xy 101.6 27.94) (xy 101.6 24.13)
 		)
 		(stroke
@@ -7745,7 +9261,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 80.01) (xy 96.52 86.36)
+			(xy 96.52 80.01) (xy 96.52 87.63)
 		)
 		(stroke
 			(width 0)
@@ -7795,23 +9311,13 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 92.71) (xy 135.89 86.36)
+			(xy 135.89 93.98) (xy 135.89 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8e820aac-94ea-465d-a8e4-1cec87a5005d")
-	)
-	(wire
-		(pts
-			(xy 43.18 80.01) (xy 43.18 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e922b5b-a45e-457f-80cc-9d29849d3b56")
 	)
 	(wire
 		(pts
@@ -7885,7 +9391,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 153.67) (xy 134.62 153.67)
+			(xy 102.87 153.67) (xy 135.89 153.67)
 		)
 		(stroke
 			(width 0)
@@ -7915,7 +9421,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 102.87) (xy 43.18 99.06)
+			(xy 43.18 102.87) (xy 43.18 101.6)
 		)
 		(stroke
 			(width 0)
@@ -7925,7 +9431,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 168.91) (xy 102.87 168.91)
+			(xy 133.35 172.72) (xy 165.1 172.72)
 		)
 		(stroke
 			(width 0)
@@ -7942,6 +9448,16 @@
 			(type default)
 		)
 		(uuid "a093afdb-aa98-45c4-8a4c-6bc5b8b91f6f")
+	)
+	(wire
+		(pts
+			(xy 182.88 77.47) (xy 182.88 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1c520d1-2843-4808-ba02-daac76360d7e")
 	)
 	(wire
 		(pts
@@ -7965,7 +9481,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 106.68) (xy 157.48 113.03)
+			(xy 157.48 106.68) (xy 157.48 115.57)
 		)
 		(stroke
 			(width 0)
@@ -7975,7 +9491,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 162.56) (xy 102.87 168.91)
+			(xy 102.87 162.56) (xy 102.87 172.72)
 		)
 		(stroke
 			(width 0)
@@ -7995,6 +9511,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 172.72) (xy 91.44 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab666196-3cee-4f91-a14b-53dffadc103f")
+	)
+	(wire
+		(pts
 			(xy 111.76 58.42) (xy 111.76 60.96)
 		)
 		(stroke
@@ -8005,13 +9531,33 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 156.21) (xy 165.1 160.02)
+			(xy 165.1 156.21) (xy 165.1 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ae9abe22-0d52-4bf6-82a3-66c7a08b43f1")
+	)
+	(wire
+		(pts
+			(xy 77.47 163.83) (xy 77.47 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b00e6781-24f1-4d6a-b547-03d674292752")
+	)
+	(wire
+		(pts
+			(xy 43.18 96.52) (xy 43.18 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b05b0449-7f70-47fe-b511-b41d78d4bb9c")
 	)
 	(wire
 		(pts
@@ -8025,7 +9571,17 @@
 	)
 	(wire
 		(pts
-			(xy 127 121.92) (xy 127 125.73)
+			(xy 90.17 80.01) (xy 96.52 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b281f851-5157-429b-95e3-5b8be12d2454")
+	)
+	(wire
+		(pts
+			(xy 127 121.92) (xy 127 127)
 		)
 		(stroke
 			(width 0)
@@ -8045,13 +9601,23 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 158.75) (xy 91.44 153.67)
+			(xy 91.44 160.02) (xy 91.44 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bbd24b48-b012-43b5-a91f-1930956e4682")
+	)
+	(wire
+		(pts
+			(xy 173.99 110.49) (xy 173.99 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bece4b9f-6e47-464e-8284-2a583d5ae9e1")
 	)
 	(wire
 		(pts
@@ -8125,7 +9691,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 93.98) (xy 96.52 123.19)
+			(xy 96.52 92.71) (xy 96.52 123.19)
 		)
 		(stroke
 			(width 0)
@@ -8135,7 +9701,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 100.33) (xy 135.89 106.68)
+			(xy 135.89 99.06) (xy 135.89 106.68)
 		)
 		(stroke
 			(width 0)
@@ -8165,7 +9731,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 40.64) (xy 101.6 44.45)
+			(xy 101.6 39.37) (xy 101.6 44.45)
 		)
 		(stroke
 			(width 0)
@@ -8195,6 +9761,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 156.21) (xy 137.16 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd8a4098-90ca-4a4c-b707-e64ce8afcfbf")
+	)
+	(wire
+		(pts
 			(xy 101.6 123.19) (xy 101.6 125.73)
 		)
 		(stroke
@@ -8202,16 +9778,6 @@
 			(type default)
 		)
 		(uuid "ce6f2582-e674-4077-b9f4-31aa2caf38bf")
-	)
-	(wire
-		(pts
-			(xy 62.23 148.59) (xy 62.23 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf549770-9459-4070-945b-0f4ac7f535f7")
 	)
 	(wire
 		(pts
@@ -8355,6 +9921,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 90.17) (xy 57.15 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db2eb86e-6ab3-4a4c-a52f-8909c76f9997")
+	)
+	(wire
+		(pts
 			(xy 199.39 100.33) (xy 204.47 100.33)
 		)
 		(stroke
@@ -8375,7 +9951,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 168.91) (xy 74.93 168.91)
+			(xy 62.23 172.72) (xy 77.47 172.72)
 		)
 		(stroke
 			(width 0)
@@ -8385,23 +9961,13 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 173.99) (xy 134.62 168.91)
+			(xy 43.18 80.01) (xy 43.18 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "defe99b2-18b4-4c70-b090-3e98678744e6")
-	)
-	(wire
-		(pts
-			(xy 77.47 163.83) (xy 77.47 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df10db56-4451-48f5-b8e4-34f246403dd7")
+		(uuid "dffe2030-6e34-4c1d-91e3-35b498bcdf8e")
 	)
 	(wire
 		(pts
@@ -8415,7 +9981,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 106.68) (xy 135.89 106.68)
+			(xy 132.08 106.68) (xy 135.89 106.68)
 		)
 		(stroke
 			(width 0)
@@ -8435,7 +10001,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 80.01) (xy 96.52 80.01)
+			(xy 80.01 80.01) (xy 90.17 80.01)
 		)
 		(stroke
 			(width 0)
@@ -8445,7 +10011,17 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 76.2) (xy 214.63 80.01)
+			(xy 181.61 115.57) (xy 181.61 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2e7a5b8-c62d-41cf-8e94-d6a7cb5073a3")
+	)
+	(wire
+		(pts
+			(xy 214.63 74.93) (xy 214.63 80.01)
 		)
 		(stroke
 			(width 0)
@@ -8495,7 +10071,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 115.57) (xy 119.38 137.16)
+			(xy 119.38 114.3) (xy 119.38 137.16)
 		)
 		(stroke
 			(width 0)
@@ -8525,16 +10101,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 156.21) (xy 176.53 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3191377-9aa2-431b-b459-a4e40ab786e6")
-	)
-	(wire
-		(pts
 			(xy 198.12 125.73) (xy 204.47 125.73)
 		)
 		(stroke
@@ -8555,6 +10121,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 172.72) (xy 128.27 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f652f62d-c52c-4705-932d-8bbe34243701")
+	)
+	(wire
+		(pts
 			(xy 124.46 44.45) (xy 127 44.45)
 		)
 		(stroke
@@ -8565,7 +10141,17 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 77.47) (xy 36.83 123.19)
+			(xy 91.44 172.72) (xy 77.47 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9cb1d72-962f-4558-b2ef-dbef438f797d")
+	)
+	(wire
+		(pts
+			(xy 38.1 77.47) (xy 38.1 123.19)
 		)
 		(stroke
 			(width 0)
@@ -8791,7 +10377,7 @@
 		(uuid "6b80b665-423a-45da-89b4-be62d59e6ff1")
 	)
 	(label "~{MCU_RES}"
-		(at 45.72 90.17 0)
+		(at 46.99 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8868,7 +10454,7 @@
 		(uuid "9bd9ed46-3dcc-437c-9171-d61348c27777")
 	)
 	(label "BTN2"
-		(at 80.01 113.03 0)
+		(at 80.01 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9011,7 +10597,7 @@
 		(uuid "f0015df8-722f-4bda-9da7-4d2f8ede3e02")
 	)
 	(label "BTN1"
-		(at 80.01 110.49 0)
+		(at 80.01 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9071,7 +10657,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AllardChip:RESC40X20X15L10L"
+		(property "Footprint" "AllardChip:RESC40X20X15L10N"
 			(at 102.616 37.084 90)
 			(effects
 				(font
@@ -9679,7 +11265,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 176.53 153.67 0)
+		(at 165.1 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9688,7 +11274,7 @@
 		(fields_autoplaced yes)
 		(uuid "15463233-f8a9-477e-883b-7de770dc1213")
 		(property "Reference" "#PWR020"
-			(at 176.53 157.48 0)
+			(at 165.1 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9697,7 +11283,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 176.53 148.59 0)
+			(at 165.1 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9705,7 +11291,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 153.67 0)
+			(at 165.1 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9714,7 +11300,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 153.67 0)
+			(at 165.1 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9723,7 +11309,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 176.53 153.67 0)
+			(at 165.1 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10294,7 +11880,7 @@
 	)
 	(symbol
 		(lib_id "AllardPower:U40001")
-		(at 146.05 161.29 0)
+		(at 147.32 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10303,7 +11889,7 @@
 		(fields_autoplaced yes)
 		(uuid "1c2d20fe-b190-430e-bf7e-4918301be3df")
 		(property "Reference" "U5"
-			(at 146.05 146.05 0)
+			(at 147.32 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10311,15 +11897,15 @@
 			)
 		)
 		(property "Value" "MIC5365-3.0YC5-TR"
-			(at 146.05 148.59 0)
+			(at 147.32 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "AllardSOT:SOT23-5P65_210X110L33X22L"
-			(at 146.05 161.29 0)
+		(property "Footprint" "AllardSOT:SOT23-5P65_210X110L33X22N"
+			(at 147.32 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10328,7 +11914,7 @@
 			)
 		)
 		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/mic5365.pdf"
-			(at 146.05 161.29 0)
+			(at 147.32 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10337,7 +11923,7 @@
 			)
 		)
 		(property "Description" "3.0V 150mA linear regulator"
-			(at 146.05 161.29 0)
+			(at 147.32 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10346,7 +11932,7 @@
 			)
 		)
 		(property "MPN" "MIC5365-3.0YC5-TR"
-			(at 146.05 161.29 0)
+			(at 147.32 161.29 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -10355,7 +11941,7 @@
 			)
 		)
 		(property "manf#" "MIC5365-3.0YC5-TR"
-			(at 146.05 161.29 0)
+			(at 147.32 161.29 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -10364,7 +11950,7 @@
 			)
 		)
 		(property "SUP1" "Digi-Key"
-			(at 146.05 161.29 0)
+			(at 147.32 161.29 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -10373,7 +11959,7 @@
 			)
 		)
 		(property "SUP1_PN" "576-3191-1-ND"
-			(at 146.05 161.29 0)
+			(at 147.32 161.29 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -10382,7 +11968,7 @@
 			)
 		)
 		(property "Manufacturer" "Microchip Technology"
-			(at 146.05 161.29 0)
+			(at 147.32 161.29 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -10391,7 +11977,7 @@
 			)
 		)
 		(property "SUP2" "Mouser"
-			(at 146.05 161.29 0)
+			(at 147.32 161.29 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -10400,7 +11986,7 @@
 			)
 		)
 		(property "SUP2_PN" "998-MIC5365-3.0YC5TR"
-			(at 146.05 161.29 0)
+			(at 147.32 161.29 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -10409,7 +11995,7 @@
 			)
 		)
 		(property "AI_PN" "${SYMBOL_NAME}"
-			(at 146.05 161.29 0)
+			(at 147.32 161.29 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -10418,7 +12004,7 @@
 			)
 		)
 		(property "Temperature" "-40-125"
-			(at 146.05 161.29 0)
+			(at 147.32 161.29 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -10427,7 +12013,7 @@
 			)
 		)
 		(property "Voltage" "3.0"
-			(at 146.05 151.13 0)
+			(at 147.32 151.13 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -10486,7 +12072,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AllardChip:CAPC200X125X145L45L"
+		(property "Footprint" "AllardChip:CAPC200X125X145L45N"
 			(at 136.906 96.774 90)
 			(effects
 				(font
@@ -10665,7 +12251,7 @@
 	)
 	(symbol
 		(lib_id "AllardPassive:C10A72-10001")
-		(at 170.18 88.9 0)
+		(at 170.18 90.17 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10674,7 +12260,7 @@
 		(dnp no)
 		(uuid "2b387972-5143-4a7d-a7a0-e8913e0c1686")
 		(property "Reference" "C5"
-			(at 166.37 87.6299 0)
+			(at 166.37 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10683,7 +12269,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 166.37 90.1699 0)
+			(at 166.37 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10691,8 +12277,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AllardChip:CAPC100X50X60L25L"
-			(at 169.164 89.154 90)
+		(property "Footprint" "AllardChip:CAPC100X50X60L25N"
+			(at 169.164 90.424 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10701,7 +12287,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H105ME05-01A.pdf"
-			(at 170.18 88.9 0)
+			(at 170.18 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10710,7 +12296,7 @@
 			)
 		)
 		(property "Description" "1uF 0402 X5R 20% Cap"
-			(at 170.18 88.9 0)
+			(at 170.18 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10719,7 +12305,7 @@
 			)
 		)
 		(property "MPN" "GRM155R61H105ME05D"
-			(at 170.18 88.9 0)
+			(at 170.18 90.17 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -10728,7 +12314,7 @@
 			)
 		)
 		(property "manf#" "GRM155R61H105ME05D"
-			(at 170.18 88.9 0)
+			(at 170.18 90.17 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -10737,7 +12323,7 @@
 			)
 		)
 		(property "SUP1" "Digi-Key"
-			(at 170.18 88.9 0)
+			(at 170.18 90.17 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -10746,7 +12332,7 @@
 			)
 		)
 		(property "SUP1_PN" "490-GRM155R61H105ME05DCT-ND"
-			(at 170.18 88.9 0)
+			(at 170.18 90.17 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -10755,7 +12341,7 @@
 			)
 		)
 		(property "AI_PN" "${SYMBOL_NAME}"
-			(at 170.18 88.9 0)
+			(at 170.18 90.17 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -10764,7 +12350,7 @@
 			)
 		)
 		(property "SUP2" "Mouser"
-			(at 170.18 88.9 0)
+			(at 170.18 90.17 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -10773,7 +12359,7 @@
 			)
 		)
 		(property "SUP2_PN" "81-GRM155R61H105ME5D"
-			(at 170.18 88.9 0)
+			(at 170.18 90.17 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -10782,7 +12368,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 170.18 88.9 0)
+			(at 170.18 90.17 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -10791,7 +12377,7 @@
 			)
 		)
 		(property "ESR" "X5R"
-			(at 170.18 88.9 0)
+			(at 170.18 90.17 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -10800,7 +12386,7 @@
 			)
 		)
 		(property "Temperature" "-55-85"
-			(at 170.18 88.9 0)
+			(at 170.18 90.17 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -10809,7 +12395,7 @@
 			)
 		)
 		(property "Tolerance" "20%"
-			(at 170.18 88.9 0)
+			(at 170.18 90.17 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -10818,7 +12404,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 170.18 88.9 0)
+			(at 170.18 90.17 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -10827,7 +12413,7 @@
 			)
 		)
 		(property "variant" "default"
-			(at 170.18 88.9 0)
+			(at 170.18 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11416,6 +13002,7 @@
 		)
 	)
 	(symbol
+		(lib_name "R10020-10000_3")
 		(lib_id "AllardPassive:R10020-10000")
 		(at 127 129.54 0)
 		(unit 1)
@@ -11443,7 +13030,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AllardChip:RESC40X20X15L10L"
+		(property "Footprint" "AllardChip:RESC40X20X15L10N"
 			(at 128.016 129.794 90)
 			(effects
 				(font
@@ -11630,7 +13217,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AllardChip:CAPC100X50X60L25L"
+		(property "Footprint" "AllardChip:CAPC100X50X60L25N"
 			(at 183.896 81.534 90)
 			(effects
 				(font
@@ -12023,6 +13610,7 @@
 		)
 	)
 	(symbol
+		(lib_name "C10A72-10000_2")
 		(lib_id "AllardPassive:C10A72-10000")
 		(at 62.23 163.83 0)
 		(mirror y)
@@ -12051,7 +13639,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "AllardChip:CAPC100X50X60L25L"
+		(property "Footprint" "AllardChip:CAPC100X50X60L25N"
 			(at 61.214 164.084 90)
 			(effects
 				(font
@@ -12212,7 +13800,7 @@
 	)
 	(symbol
 		(lib_id "AllardPassive:C10A72-10001")
-		(at 198.12 129.54 0)
+		(at 198.12 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12221,7 +13809,7 @@
 		(fields_autoplaced yes)
 		(uuid "6d671f2c-b811-44fa-a57f-80e0ea3ee1e3")
 		(property "Reference" "C1"
-			(at 201.93 128.2699 0)
+			(at 201.93 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12230,7 +13818,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 201.93 130.8099 0)
+			(at 201.93 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12238,8 +13826,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AllardChip:CAPC100X50X60L25L"
-			(at 199.136 129.794 90)
+		(property "Footprint" "AllardChip:CAPC100X50X60L25N"
+			(at 199.136 131.064 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12248,7 +13836,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H105ME05-01A.pdf"
-			(at 198.12 129.54 0)
+			(at 198.12 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12257,7 +13845,7 @@
 			)
 		)
 		(property "Description" "1uF 0402 X5R 20% Cap"
-			(at 198.12 129.54 0)
+			(at 198.12 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12266,7 +13854,7 @@
 			)
 		)
 		(property "MPN" "GRM155R61H105ME05D"
-			(at 198.12 129.54 0)
+			(at 198.12 130.81 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -12275,7 +13863,7 @@
 			)
 		)
 		(property "manf#" "GRM155R61H105ME05D"
-			(at 198.12 129.54 0)
+			(at 198.12 130.81 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -12284,7 +13872,7 @@
 			)
 		)
 		(property "SUP1" "Digi-Key"
-			(at 198.12 129.54 0)
+			(at 198.12 130.81 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -12293,7 +13881,7 @@
 			)
 		)
 		(property "SUP1_PN" "490-GRM155R61H105ME05DCT-ND"
-			(at 198.12 129.54 0)
+			(at 198.12 130.81 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -12302,7 +13890,7 @@
 			)
 		)
 		(property "AI_PN" "${SYMBOL_NAME}"
-			(at 198.12 129.54 0)
+			(at 198.12 130.81 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -12311,7 +13899,7 @@
 			)
 		)
 		(property "SUP2" "Mouser"
-			(at 198.12 129.54 0)
+			(at 198.12 130.81 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -12320,7 +13908,7 @@
 			)
 		)
 		(property "SUP2_PN" "81-GRM155R61H105ME5D"
-			(at 198.12 129.54 0)
+			(at 198.12 130.81 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -12329,7 +13917,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 198.12 129.54 0)
+			(at 198.12 130.81 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -12338,7 +13926,7 @@
 			)
 		)
 		(property "ESR" "X5R"
-			(at 198.12 129.54 0)
+			(at 198.12 130.81 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -12347,7 +13935,7 @@
 			)
 		)
 		(property "Temperature" "-55-85"
-			(at 198.12 129.54 0)
+			(at 198.12 130.81 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -12356,7 +13944,7 @@
 			)
 		)
 		(property "Tolerance" "20%"
-			(at 198.12 129.54 0)
+			(at 198.12 130.81 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -12365,7 +13953,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 198.12 129.54 0)
+			(at 198.12 130.81 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -12374,7 +13962,7 @@
 			)
 		)
 		(property "variant" "default"
-			(at 198.12 129.54 0)
+			(at 198.12 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12423,7 +14011,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AllardChip:INDC400X400X120L120L"
+		(property "Footprint" "AllardChip:INDC400X400X120L120N"
 			(at 129.54 106.68 0)
 			(effects
 				(font
@@ -12593,7 +14181,7 @@
 	)
 	(symbol
 		(lib_id "AllardPassive:C10A72-10001")
-		(at 173.99 114.3 0)
+		(at 173.99 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12602,7 +14190,7 @@
 		(fields_autoplaced yes)
 		(uuid "7aeb4c55-b626-47f0-af48-62c278a29587")
 		(property "Reference" "C4"
-			(at 177.8 113.0299 0)
+			(at 177.8 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12611,7 +14199,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 177.8 115.5699 0)
+			(at 177.8 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12619,8 +14207,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AllardChip:CAPC100X50X60L25L"
-			(at 175.006 114.554 90)
+		(property "Footprint" "AllardChip:CAPC100X50X60L25N"
+			(at 175.006 115.824 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12629,7 +14217,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H105ME05-01A.pdf"
-			(at 173.99 114.3 0)
+			(at 173.99 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12638,7 +14226,7 @@
 			)
 		)
 		(property "Description" "1uF 0402 X5R 20% Cap"
-			(at 173.99 114.3 0)
+			(at 173.99 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12647,7 +14235,7 @@
 			)
 		)
 		(property "MPN" "GRM155R61H105ME05D"
-			(at 173.99 114.3 0)
+			(at 173.99 115.57 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -12656,7 +14244,7 @@
 			)
 		)
 		(property "manf#" "GRM155R61H105ME05D"
-			(at 173.99 114.3 0)
+			(at 173.99 115.57 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -12665,7 +14253,7 @@
 			)
 		)
 		(property "SUP1" "Digi-Key"
-			(at 173.99 114.3 0)
+			(at 173.99 115.57 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -12674,7 +14262,7 @@
 			)
 		)
 		(property "SUP1_PN" "490-GRM155R61H105ME05DCT-ND"
-			(at 173.99 114.3 0)
+			(at 173.99 115.57 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -12683,7 +14271,7 @@
 			)
 		)
 		(property "AI_PN" "${SYMBOL_NAME}"
-			(at 173.99 114.3 0)
+			(at 173.99 115.57 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -12692,7 +14280,7 @@
 			)
 		)
 		(property "SUP2" "Mouser"
-			(at 173.99 114.3 0)
+			(at 173.99 115.57 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -12701,7 +14289,7 @@
 			)
 		)
 		(property "SUP2_PN" "81-GRM155R61H105ME5D"
-			(at 173.99 114.3 0)
+			(at 173.99 115.57 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -12710,7 +14298,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 173.99 114.3 0)
+			(at 173.99 115.57 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -12719,7 +14307,7 @@
 			)
 		)
 		(property "ESR" "X5R"
-			(at 173.99 114.3 0)
+			(at 173.99 115.57 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -12728,7 +14316,7 @@
 			)
 		)
 		(property "Temperature" "-55-85"
-			(at 173.99 114.3 0)
+			(at 173.99 115.57 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -12737,7 +14325,7 @@
 			)
 		)
 		(property "Tolerance" "20%"
-			(at 173.99 114.3 0)
+			(at 173.99 115.57 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -12746,7 +14334,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 173.99 114.3 0)
+			(at 173.99 115.57 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -12755,7 +14343,7 @@
 			)
 		)
 		(property "variant" "default"
-			(at 173.99 114.3 0)
+			(at 173.99 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12970,8 +14558,9 @@
 		)
 	)
 	(symbol
+		(lib_name "R10020-10000_1")
 		(lib_id "AllardPassive:R10020-10000")
-		(at 43.18 95.25 0)
+		(at 43.18 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12980,7 +14569,7 @@
 		(fields_autoplaced yes)
 		(uuid "7f3cae92-a250-4b55-962a-8308e8221934")
 		(property "Reference" "R8"
-			(at 45.72 93.9799 0)
+			(at 45.72 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12989,7 +14578,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 45.72 96.5199 0)
+			(at 45.72 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12997,8 +14586,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AllardChip:RESC40X20X15L10L"
-			(at 44.196 95.504 90)
+		(property "Footprint" "AllardChip:RESC40X20X15L10N"
+			(at 44.196 99.314 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13007,7 +14596,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
-			(at 43.18 95.25 0)
+			(at 43.18 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13016,7 +14605,7 @@
 			)
 		)
 		(property "Description" "10k 01005 0.03W 1% Res"
-			(at 43.18 95.25 0)
+			(at 43.18 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13025,7 +14614,7 @@
 			)
 		)
 		(property "AI_PN" "${SYMBOL_NAME}"
-			(at 43.18 95.25 0)
+			(at 43.18 99.06 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -13034,7 +14623,7 @@
 			)
 		)
 		(property "MPN" "ERJ-XGNF1002Y"
-			(at 43.18 95.25 0)
+			(at 43.18 99.06 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -13043,7 +14632,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic Electronics Components"
-			(at 43.18 95.25 0)
+			(at 43.18 99.06 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -13052,7 +14641,7 @@
 			)
 		)
 		(property "manf#" "ERJ-XGNF1002Y"
-			(at 43.18 95.25 0)
+			(at 43.18 99.06 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -13061,7 +14650,7 @@
 			)
 		)
 		(property "SUP1" "Digi-Key"
-			(at 43.18 95.25 0)
+			(at 43.18 99.06 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -13070,7 +14659,7 @@
 			)
 		)
 		(property "SUP1_PN" "10-ERJ-XGNF1002YCT-ND"
-			(at 43.18 95.25 0)
+			(at 43.18 99.06 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -13079,7 +14668,7 @@
 			)
 		)
 		(property "SUP2" "Mouser"
-			(at 43.18 95.25 0)
+			(at 43.18 99.06 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -13088,7 +14677,7 @@
 			)
 		)
 		(property "SUP2_PN" "667-ERJ-XGNF1002Y"
-			(at 43.18 95.25 0)
+			(at 43.18 99.06 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -13097,7 +14686,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 43.18 95.25 0)
+			(at 43.18 99.06 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -13106,7 +14695,7 @@
 			)
 		)
 		(property "Power" "0.03W"
-			(at 43.18 95.25 0)
+			(at 43.18 99.06 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -13115,7 +14704,7 @@
 			)
 		)
 		(property "Temperature" "-55-125"
-			(at 43.18 95.25 0)
+			(at 43.18 99.06 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -13124,7 +14713,7 @@
 			)
 		)
 		(property "variant" "default"
-			(at 43.18 95.25 0)
+			(at 43.18 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13133,7 +14722,7 @@
 			)
 		)
 		(property "TempCoef" "±200ppm/°C"
-			(at 43.18 95.25 0)
+			(at 43.18 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13158,7 +14747,7 @@
 	)
 	(symbol
 		(lib_id "AllardPassive:C10A72-10001")
-		(at 189.23 124.46 0)
+		(at 189.23 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13166,7 +14755,7 @@
 		(dnp no)
 		(uuid "7fa720f7-2242-4251-99d0-7b8de3a2b9cf")
 		(property "Reference" "C2"
-			(at 184.15 124.46 0)
+			(at 184.15 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13175,7 +14764,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 185.166 126.492 0)
+			(at 185.166 127.762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13183,8 +14772,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AllardChip:CAPC100X50X60L25L"
-			(at 190.246 124.714 90)
+		(property "Footprint" "AllardChip:CAPC100X50X60L25N"
+			(at 190.246 125.984 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13193,7 +14782,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H105ME05-01A.pdf"
-			(at 189.23 124.46 0)
+			(at 189.23 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13202,7 +14791,7 @@
 			)
 		)
 		(property "Description" "1uF 0402 X5R 20% Cap"
-			(at 189.23 124.46 0)
+			(at 189.23 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13211,7 +14800,7 @@
 			)
 		)
 		(property "MPN" "GRM155R61H105ME05D"
-			(at 189.23 124.46 0)
+			(at 189.23 125.73 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -13220,7 +14809,7 @@
 			)
 		)
 		(property "manf#" "GRM155R61H105ME05D"
-			(at 189.23 124.46 0)
+			(at 189.23 125.73 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -13229,7 +14818,7 @@
 			)
 		)
 		(property "SUP1" "Digi-Key"
-			(at 189.23 124.46 0)
+			(at 189.23 125.73 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -13238,7 +14827,7 @@
 			)
 		)
 		(property "SUP1_PN" "490-GRM155R61H105ME05DCT-ND"
-			(at 189.23 124.46 0)
+			(at 189.23 125.73 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -13247,7 +14836,7 @@
 			)
 		)
 		(property "AI_PN" "${SYMBOL_NAME}"
-			(at 189.23 124.46 0)
+			(at 189.23 125.73 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -13256,7 +14845,7 @@
 			)
 		)
 		(property "SUP2" "Mouser"
-			(at 189.23 124.46 0)
+			(at 189.23 125.73 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -13265,7 +14854,7 @@
 			)
 		)
 		(property "SUP2_PN" "81-GRM155R61H105ME5D"
-			(at 189.23 124.46 0)
+			(at 189.23 125.73 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -13274,7 +14863,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 189.23 124.46 0)
+			(at 189.23 125.73 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -13283,7 +14872,7 @@
 			)
 		)
 		(property "ESR" "X5R"
-			(at 189.23 124.46 0)
+			(at 189.23 125.73 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -13292,7 +14881,7 @@
 			)
 		)
 		(property "Temperature" "-55-85"
-			(at 189.23 124.46 0)
+			(at 189.23 125.73 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -13301,7 +14890,7 @@
 			)
 		)
 		(property "Tolerance" "20%"
-			(at 189.23 124.46 0)
+			(at 189.23 125.73 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -13310,7 +14899,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 189.23 124.46 0)
+			(at 189.23 125.73 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -13319,7 +14908,7 @@
 			)
 		)
 		(property "variant" "default"
-			(at 189.23 124.46 0)
+			(at 189.23 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13343,6 +14932,7 @@
 		)
 	)
 	(symbol
+		(lib_name "C10A72-10000_3")
 		(lib_id "AllardPassive:C10A72-10000")
 		(at 91.44 162.56 0)
 		(mirror y)
@@ -13371,7 +14961,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "AllardChip:CAPC100X50X60L25L"
+		(property "Footprint" "AllardChip:CAPC100X50X60L25N"
 			(at 90.424 162.814 90)
 			(effects
 				(font
@@ -13531,17 +15121,17 @@
 		)
 	)
 	(symbol
+		(lib_name "R10020-10000_2")
 		(lib_id "AllardPassive:R10020-10000")
-		(at 45.72 85.09 0)
+		(at 45.72 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "917c40b9-2df2-4ff4-8b7c-40c720e42294")
 		(property "Reference" "R3"
-			(at 48.26 83.8199 0)
+			(at 47.498 84.328 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13550,7 +15140,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 48.26 86.3599 0)
+			(at 47.244 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13558,8 +15148,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AllardChip:RESC40X20X15L10L"
-			(at 46.736 85.344 90)
+		(property "Footprint" "AllardChip:RESC40X20X15L10N"
+			(at 46.736 86.614 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13568,7 +15158,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
-			(at 45.72 85.09 0)
+			(at 45.72 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13577,7 +15167,7 @@
 			)
 		)
 		(property "Description" "10k 01005 0.03W 1% Res"
-			(at 45.72 85.09 0)
+			(at 45.72 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13586,7 +15176,7 @@
 			)
 		)
 		(property "AI_PN" "${SYMBOL_NAME}"
-			(at 45.72 85.09 0)
+			(at 45.72 86.36 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -13595,7 +15185,7 @@
 			)
 		)
 		(property "MPN" "ERJ-XGNF1002Y"
-			(at 45.72 85.09 0)
+			(at 45.72 86.36 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -13604,7 +15194,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic Electronics Components"
-			(at 45.72 85.09 0)
+			(at 45.72 86.36 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -13613,7 +15203,7 @@
 			)
 		)
 		(property "manf#" "ERJ-XGNF1002Y"
-			(at 45.72 85.09 0)
+			(at 45.72 86.36 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -13622,7 +15212,7 @@
 			)
 		)
 		(property "SUP1" "Digi-Key"
-			(at 45.72 85.09 0)
+			(at 45.72 86.36 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -13631,7 +15221,7 @@
 			)
 		)
 		(property "SUP1_PN" "10-ERJ-XGNF1002YCT-ND"
-			(at 45.72 85.09 0)
+			(at 45.72 86.36 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -13640,7 +15230,7 @@
 			)
 		)
 		(property "SUP2" "Mouser"
-			(at 45.72 85.09 0)
+			(at 45.72 86.36 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -13649,7 +15239,7 @@
 			)
 		)
 		(property "SUP2_PN" "667-ERJ-XGNF1002Y"
-			(at 45.72 85.09 0)
+			(at 45.72 86.36 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -13658,7 +15248,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 45.72 85.09 0)
+			(at 45.72 86.36 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -13667,7 +15257,7 @@
 			)
 		)
 		(property "Power" "0.03W"
-			(at 45.72 85.09 0)
+			(at 45.72 86.36 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -13676,7 +15266,7 @@
 			)
 		)
 		(property "Temperature" "-55-125"
-			(at 45.72 85.09 0)
+			(at 45.72 86.36 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -13685,7 +15275,7 @@
 			)
 		)
 		(property "variant" "default"
-			(at 45.72 85.09 0)
+			(at 45.72 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13694,7 +15284,7 @@
 			)
 		)
 		(property "TempCoef" "±200ppm/°C"
-			(at 45.72 85.09 0)
+			(at 45.72 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13785,7 +15375,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 74.93 170.18 0)
+		(at 128.27 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13794,7 +15384,7 @@
 		(fields_autoplaced yes)
 		(uuid "a317a76d-4146-4045-a41d-22ae610f7591")
 		(property "Reference" "#PWR011"
-			(at 74.93 176.53 0)
+			(at 128.27 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13803,7 +15393,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 74.93 175.26 0)
+			(at 128.27 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13811,7 +15401,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 170.18 0)
+			(at 128.27 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13820,7 +15410,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 170.18 0)
+			(at 128.27 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13829,7 +15419,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 74.93 170.18 0)
+			(at 128.27 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14023,8 +15613,9 @@
 		)
 	)
 	(symbol
+		(lib_name "C10A72-10000_1")
 		(lib_id "AllardPassive:C10A72-10000")
-		(at 40.64 113.03 0)
+		(at 40.64 110.49 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14033,7 +15624,7 @@
 		(dnp no)
 		(uuid "ad34da36-0cdd-488b-80a0-5bfa83323577")
 		(property "Reference" "C13"
-			(at 41.148 110.998 0)
+			(at 41.148 108.458 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14042,7 +15633,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 41.148 115.57 0)
+			(at 41.148 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14050,8 +15641,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "AllardChip:CAPC100X50X60L25L"
-			(at 39.624 113.284 90)
+		(property "Footprint" "AllardChip:CAPC100X50X60L25N"
+			(at 39.624 110.744 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14060,7 +15651,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155Z71A105KE01-01A.pdf"
-			(at 40.64 113.03 0)
+			(at 40.64 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14069,7 +15660,7 @@
 			)
 		)
 		(property "Description" "1uF 0402 X7R 20% Cap"
-			(at 40.64 113.03 0)
+			(at 40.64 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14078,7 +15669,7 @@
 			)
 		)
 		(property "MPN" "GRM155Z71A105KE01J"
-			(at 40.64 113.03 0)
+			(at 40.64 110.49 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -14087,7 +15678,7 @@
 			)
 		)
 		(property "manf#" "${MPN}"
-			(at 40.64 113.03 0)
+			(at 40.64 110.49 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -14096,7 +15687,7 @@
 			)
 		)
 		(property "SUP1" "Digi-Key"
-			(at 40.64 113.03 0)
+			(at 40.64 110.49 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -14105,7 +15696,7 @@
 			)
 		)
 		(property "SUP1_PN" "490-GRM155Z71A105KE01JCT-ND"
-			(at 40.64 113.03 0)
+			(at 40.64 110.49 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -14114,7 +15705,7 @@
 			)
 		)
 		(property "AI_PN" "${SYMBOL_NAME}"
-			(at 40.64 113.03 0)
+			(at 40.64 110.49 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -14123,7 +15714,7 @@
 			)
 		)
 		(property "SUP2" "Mouser"
-			(at 40.64 113.03 0)
+			(at 40.64 110.49 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -14132,7 +15723,7 @@
 			)
 		)
 		(property "SUP2_PN" "81-GRM155Z71A105KE1J"
-			(at 40.64 113.03 0)
+			(at 40.64 110.49 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -14141,7 +15732,7 @@
 			)
 		)
 		(property "Voltage" "10V"
-			(at 40.64 113.03 0)
+			(at 40.64 110.49 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -14150,7 +15741,7 @@
 			)
 		)
 		(property "ESR" "X7R"
-			(at 40.64 113.03 0)
+			(at 40.64 110.49 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -14159,7 +15750,7 @@
 			)
 		)
 		(property "Temperature" "-55-125"
-			(at 40.64 113.03 0)
+			(at 40.64 110.49 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -14168,7 +15759,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 40.64 113.03 0)
+			(at 40.64 110.49 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -14177,7 +15768,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 40.64 113.03 0)
+			(at 40.64 110.49 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -14186,7 +15777,7 @@
 			)
 		)
 		(property "variant" "default"
-			(at 40.64 113.03 0)
+			(at 40.64 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14304,7 +15895,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AllardChip:CAPC60X30X39L17L"
+		(property "Footprint" "AllardChip:CAPC60X30X39L17N"
 			(at 166.116 164.084 90)
 			(effects
 				(font
@@ -14950,7 +16541,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AllardChip:RESC40X20X15L10L"
+		(property "Footprint" "AllardChip:RESC40X20X15L10N"
 			(at 98.806 53.594 90)
 			(effects
 				(font
@@ -15177,7 +16768,7 @@
 	)
 	(symbol
 		(lib_id "AllardPassive:C10A72-10001")
-		(at 181.61 119.38 0)
+		(at 181.61 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15186,7 +16777,7 @@
 		(fields_autoplaced yes)
 		(uuid "df7ec064-9349-4d9b-a97f-fe380854e1ac")
 		(property "Reference" "C3"
-			(at 185.42 118.1099 0)
+			(at 185.42 119.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15195,7 +16786,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 185.42 120.6499 0)
+			(at 185.42 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15203,8 +16794,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AllardChip:CAPC100X50X60L25L"
-			(at 182.626 119.634 90)
+		(property "Footprint" "AllardChip:CAPC100X50X60L25N"
+			(at 182.626 120.904 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15213,7 +16804,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H105ME05-01A.pdf"
-			(at 181.61 119.38 0)
+			(at 181.61 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15222,7 +16813,7 @@
 			)
 		)
 		(property "Description" "1uF 0402 X5R 20% Cap"
-			(at 181.61 119.38 0)
+			(at 181.61 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15231,7 +16822,7 @@
 			)
 		)
 		(property "MPN" "GRM155R61H105ME05D"
-			(at 181.61 119.38 0)
+			(at 181.61 120.65 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -15240,7 +16831,7 @@
 			)
 		)
 		(property "manf#" "GRM155R61H105ME05D"
-			(at 181.61 119.38 0)
+			(at 181.61 120.65 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -15249,7 +16840,7 @@
 			)
 		)
 		(property "SUP1" "Digi-Key"
-			(at 181.61 119.38 0)
+			(at 181.61 120.65 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -15258,7 +16849,7 @@
 			)
 		)
 		(property "SUP1_PN" "490-GRM155R61H105ME05DCT-ND"
-			(at 181.61 119.38 0)
+			(at 181.61 120.65 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -15267,7 +16858,7 @@
 			)
 		)
 		(property "AI_PN" "${SYMBOL_NAME}"
-			(at 181.61 119.38 0)
+			(at 181.61 120.65 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -15276,7 +16867,7 @@
 			)
 		)
 		(property "SUP2" "Mouser"
-			(at 181.61 119.38 0)
+			(at 181.61 120.65 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -15285,7 +16876,7 @@
 			)
 		)
 		(property "SUP2_PN" "81-GRM155R61H105ME5D"
-			(at 181.61 119.38 0)
+			(at 181.61 120.65 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -15294,7 +16885,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 181.61 119.38 0)
+			(at 181.61 120.65 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -15303,7 +16894,7 @@
 			)
 		)
 		(property "ESR" "X5R"
-			(at 181.61 119.38 0)
+			(at 181.61 120.65 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -15312,7 +16903,7 @@
 			)
 		)
 		(property "Temperature" "-55-85"
-			(at 181.61 119.38 0)
+			(at 181.61 120.65 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -15321,7 +16912,7 @@
 			)
 		)
 		(property "Tolerance" "20%"
-			(at 181.61 119.38 0)
+			(at 181.61 120.65 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -15330,7 +16921,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 181.61 119.38 0)
+			(at 181.61 120.65 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -15339,7 +16930,7 @@
 			)
 		)
 		(property "variant" "default"
-			(at 181.61 119.38 0)
+			(at 181.61 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15562,7 +17153,7 @@
 	)
 	(symbol
 		(lib_id "AllardPassive:C10A72-10001")
-		(at 157.48 116.84 0)
+		(at 157.48 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15570,7 +17161,7 @@
 		(dnp no)
 		(uuid "ea47534d-0bbb-40e9-8a87-ac268ec92bcc")
 		(property "Reference" "C7"
-			(at 161.29 115.5699 0)
+			(at 161.29 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15579,7 +17170,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 161.29 118.1099 0)
+			(at 161.29 119.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15587,8 +17178,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AllardChip:CAPC100X50X60L25L"
-			(at 158.496 117.094 90)
+		(property "Footprint" "AllardChip:CAPC100X50X60L25N"
+			(at 158.496 118.364 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15597,7 +17188,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H105ME05-01A.pdf"
-			(at 157.48 116.84 0)
+			(at 157.48 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15606,7 +17197,7 @@
 			)
 		)
 		(property "Description" "1uF 0402 X5R 20% Cap"
-			(at 157.48 116.84 0)
+			(at 157.48 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15615,7 +17206,7 @@
 			)
 		)
 		(property "MPN" "GRM155R61H105ME05D"
-			(at 157.48 116.84 0)
+			(at 157.48 118.11 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -15624,7 +17215,7 @@
 			)
 		)
 		(property "manf#" "GRM155R61H105ME05D"
-			(at 157.48 116.84 0)
+			(at 157.48 118.11 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -15633,7 +17224,7 @@
 			)
 		)
 		(property "SUP1" "Digi-Key"
-			(at 157.48 116.84 0)
+			(at 157.48 118.11 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -15642,7 +17233,7 @@
 			)
 		)
 		(property "SUP1_PN" "490-GRM155R61H105ME05DCT-ND"
-			(at 157.48 116.84 0)
+			(at 157.48 118.11 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -15651,7 +17242,7 @@
 			)
 		)
 		(property "AI_PN" "${SYMBOL_NAME}"
-			(at 157.48 116.84 0)
+			(at 157.48 118.11 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -15660,7 +17251,7 @@
 			)
 		)
 		(property "SUP2" "Mouser"
-			(at 157.48 116.84 0)
+			(at 157.48 118.11 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -15669,7 +17260,7 @@
 			)
 		)
 		(property "SUP2_PN" "81-GRM155R61H105ME5D"
-			(at 157.48 116.84 0)
+			(at 157.48 118.11 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -15678,7 +17269,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 157.48 116.84 0)
+			(at 157.48 118.11 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -15687,7 +17278,7 @@
 			)
 		)
 		(property "ESR" "X5R"
-			(at 157.48 116.84 0)
+			(at 157.48 118.11 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -15696,7 +17287,7 @@
 			)
 		)
 		(property "Temperature" "-55-85"
-			(at 157.48 116.84 0)
+			(at 157.48 118.11 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -15705,7 +17296,7 @@
 			)
 		)
 		(property "Tolerance" "20%"
-			(at 157.48 116.84 0)
+			(at 157.48 118.11 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -15714,7 +17305,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 157.48 116.84 0)
+			(at 157.48 118.11 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -15723,7 +17314,7 @@
 			)
 		)
 		(property "variant" "default"
-			(at 157.48 116.84 0)
+			(at 157.48 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15748,7 +17339,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 68.58 144.78 0)
+		(at 66.04 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15757,7 +17348,7 @@
 		(fields_autoplaced yes)
 		(uuid "ef5d5250-d71e-469a-963c-9efaed884b55")
 		(property "Reference" "#PWR010"
-			(at 68.58 148.59 0)
+			(at 66.04 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15766,7 +17357,7 @@
 			)
 		)
 		(property "Value" "VUSB_BUS"
-			(at 68.58 139.7 0)
+			(at 66.04 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15774,7 +17365,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 144.78 0)
+			(at 66.04 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15783,7 +17374,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 144.78 0)
+			(at 66.04 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15792,7 +17383,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 68.58 144.78 0)
+			(at 66.04 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15907,7 +17498,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AllardChip:CAPC200X125X145L45L"
+		(property "Footprint" "AllardChip:CAPC200X125X145L45N"
 			(at 120.396 112.014 90)
 			(effects
 				(font
@@ -16111,7 +17702,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "AllardChip:CAPC100X50X60L25L"
+		(property "Footprint" "AllardChip:CAPC100X50X60L25N"
 			(at 97.536 90.424 90)
 			(effects
 				(font
@@ -16362,7 +17953,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AllardChip:RESC40X20X15L10L"
+		(property "Footprint" "AllardChip:RESC40X20X15L10N"
 			(at 215.646 72.644 90)
 			(effects
 				(font
