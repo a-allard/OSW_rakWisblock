@@ -2404,7 +2404,7 @@
 			(pintype "passive")
 			(uuid "50fd4de9-79df-4331-a479-91a7093c2396")
 		)
-		(model "${HOME}/Documents/kicad/3dModels/gct_usb3075MicroConnector.step"
+		(model "${KICAD_USERLIBS}/3dModels/gct_usb3075MicroConnector.step"
 			(offset
 				(xyz 1.32 -2.65 -0.01)
 			)
